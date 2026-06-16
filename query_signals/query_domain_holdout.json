@@ -1,0 +1,98 @@
+[
+  {
+    "domain": "algorithms",
+    "text": "Can a meet-in-the-middle search reduce the state space here?"
+  },
+  {
+    "domain": "algorithms",
+    "text": "Which exchange argument proves this greedy choice?"
+  },
+  {
+    "domain": "machine_learning",
+    "text": "Why is the embedding space collapsing after contrastive fine-tuning?"
+  },
+  {
+    "domain": "machine_learning",
+    "text": "Should inference normalize these logits before temperature scaling?"
+  },
+  {
+    "domain": "backend_api",
+    "text": "How should this endpoint expose an asynchronous job result?"
+  },
+  {
+    "domain": "backend_api",
+    "text": "Where should the request correlation id be propagated?"
+  },
+  {
+    "domain": "database",
+    "text": "Can predicate locking prevent this serialization anomaly?"
+  },
+  {
+    "domain": "database",
+    "text": "Why is the planner ignoring this composite index?"
+  },
+  {
+    "domain": "concurrency",
+    "text": "Can a task miss wake-up after checking the queue and before waiting?"
+  },
+  {
+    "domain": "concurrency",
+    "text": "Does this scheduler guarantee fairness between long-lived workers?"
+  },
+  {
+    "domain": "frontend",
+    "text": "How should keyboard focus move after this popover disappears?"
+  },
+  {
+    "domain": "frontend",
+    "text": "Why is hydration replacing the server-rendered form state?"
+  },
+  {
+    "domain": "systems_programming",
+    "text": "Can this atomic load observe the payload before it is initialized?"
+  },
+  {
+    "domain": "systems_programming",
+    "text": "Why does this descriptor remain open in the spawned child?"
+  },
+  {
+    "domain": "security_crypto",
+    "text": "Does this protocol bind the ciphertext to the intended recipient?"
+  },
+  {
+    "domain": "security_crypto",
+    "text": "Can reusing this initialization vector reveal repeated plaintext blocks?"
+  },
+  {
+    "domain": "testing",
+    "text": "How should a contract test verify backward-compatible events?"
+  },
+  {
+    "domain": "testing",
+    "text": "Which mutation operators would expose weak assertions here?"
+  },
+  {
+    "domain": "devops_cli",
+    "text": "How should the deployment roll back when schema migration succeeds but startup fails?"
+  },
+  {
+    "domain": "devops_cli",
+    "text": "Why does the CLI lose terminal signals when launched through the wrapper?"
+  },
+  {
+    "domain": "data_processing",
+    "text": "How should watermarking handle events that arrive after the window closes?"
+  },
+  {
+    "domain": "data_processing",
+    "text": "Can this deduplication key merge records from different source systems?"
+  },
+  {
+    "domain": "general",
+    "text": "What would be a clearer way to structure this small Python task?"
+  },
+  {
+    "domain": "general",
+    "text": "Which details are missing before we can choose an implementation?"
+  }
+]

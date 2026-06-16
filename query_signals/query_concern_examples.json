@@ -1,0 +1,5401 @@
+[
+  {
+    "text": "Check whether this API endpoint can expose secrets.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Check whether this database worker can expose secrets.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Check whether this model inference service can expose secrets.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Check whether this file parser can expose secrets.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Check whether this background job can expose secrets.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Check whether this cache implementation can expose secrets.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Check whether this command-line tool can expose secrets.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Check whether this data pipeline can expose secrets.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Check whether this browser component can expose secrets.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Check whether this Python utility can expose secrets.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Could an attacker bypass authorization in this API endpoint?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Could an attacker bypass authorization in this database worker?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Could an attacker bypass authorization in this model inference service?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Could an attacker bypass authorization in this file parser?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Could an attacker bypass authorization in this background job?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Could an attacker bypass authorization in this cache implementation?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Could an attacker bypass authorization in this command-line tool?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Could an attacker bypass authorization in this data pipeline?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Could an attacker bypass authorization in this browser component?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Could an attacker bypass authorization in this Python utility?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Review the API endpoint for injection or unsafe input handling.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Review the database worker for injection or unsafe input handling.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Review the model inference service for injection or unsafe input handling.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Review the file parser for injection or unsafe input handling.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Review the background job for injection or unsafe input handling.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Review the cache implementation for injection or unsafe input handling.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Review the command-line tool for injection or unsafe input handling.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Review the data pipeline for injection or unsafe input handling.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Review the browser component for injection or unsafe input handling.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Review the Python utility for injection or unsafe input handling.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Does this API endpoint protect credentials and tokens correctly?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Does this database worker protect credentials and tokens correctly?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Does this model inference service protect credentials and tokens correctly?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Does this file parser protect credentials and tokens correctly?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Does this background job protect credentials and tokens correctly?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Does this cache implementation protect credentials and tokens correctly?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Does this command-line tool protect credentials and tokens correctly?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Does this data pipeline protect credentials and tokens correctly?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Does this browser component protect credentials and tokens correctly?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Does this Python utility protect credentials and tokens correctly?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Look for authentication, encryption, or access-control weaknesses in this API endpoint.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Look for authentication, encryption, or access-control weaknesses in this database worker.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Look for authentication, encryption, or access-control weaknesses in this model inference service.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Look for authentication, encryption, or access-control weaknesses in this file parser.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Look for authentication, encryption, or access-control weaknesses in this background job.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Look for authentication, encryption, or access-control weaknesses in this cache implementation.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Look for authentication, encryption, or access-control weaknesses in this command-line tool.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Look for authentication, encryption, or access-control weaknesses in this data pipeline.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Look for authentication, encryption, or access-control weaknesses in this browser component.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Look for authentication, encryption, or access-control weaknesses in this Python utility.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Could crafted input exploit this API endpoint?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Could crafted input exploit this database worker?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Could crafted input exploit this model inference service?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Could crafted input exploit this file parser?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Could crafted input exploit this background job?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Could crafted input exploit this cache implementation?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Could crafted input exploit this command-line tool?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Could crafted input exploit this data pipeline?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Could crafted input exploit this browser component?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Could crafted input exploit this Python utility?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Could hostile input compromise the API endpoint?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Could hostile input compromise the database worker?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Could hostile input compromise the model inference service?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Could hostile input compromise the file parser?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Could hostile input compromise the background job?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Could hostile input compromise the cache implementation?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Could hostile input compromise the command-line tool?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Could hostile input compromise the data pipeline?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Could hostile input compromise the browser component?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Could hostile input compromise the Python utility?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Audit secret handling and privilege checks in the API endpoint.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Audit secret handling and privilege checks in the database worker.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Audit secret handling and privilege checks in the model inference service.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Audit secret handling and privilege checks in the file parser.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Audit secret handling and privilege checks in the background job.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Audit secret handling and privilege checks in the cache implementation.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Audit secret handling and privilege checks in the command-line tool.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Audit secret handling and privilege checks in the data pipeline.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Audit secret handling and privilege checks in the browser component.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Audit secret handling and privilege checks in the Python utility.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Check whether this API endpoint has a race condition.",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Check whether this database worker has a race condition.",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Check whether this model inference service has a race condition.",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Check whether this file parser has a race condition.",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Check whether this background job has a race condition.",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Check whether this cache implementation has a race condition.",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Check whether this command-line tool has a race condition.",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Check whether this data pipeline has a race condition.",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Check whether this browser component has a race condition.",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Check whether this Python utility has a race condition.",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Could this API endpoint deadlock under concurrent use?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Could this database worker deadlock under concurrent use?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Could this model inference service deadlock under concurrent use?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Could this file parser deadlock under concurrent use?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Could this background job deadlock under concurrent use?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Could this cache implementation deadlock under concurrent use?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Could this command-line tool deadlock under concurrent use?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Could this data pipeline deadlock under concurrent use?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Could this browser component deadlock under concurrent use?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Could this Python utility deadlock under concurrent use?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Is shared state in this API endpoint synchronized correctly?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Is shared state in this database worker synchronized correctly?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Is shared state in this model inference service synchronized correctly?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Is shared state in this file parser synchronized correctly?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Is shared state in this background job synchronized correctly?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Is shared state in this cache implementation synchronized correctly?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Is shared state in this command-line tool synchronized correctly?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Is shared state in this data pipeline synchronized correctly?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Is shared state in this browser component synchronized correctly?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Is shared state in this Python utility synchronized correctly?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Review thread and task safety in this API endpoint.",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Review thread and task safety in this database worker.",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Review thread and task safety in this model inference service.",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Review thread and task safety in this file parser.",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Review thread and task safety in this background job.",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Review thread and task safety in this cache implementation.",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Review thread and task safety in this command-line tool.",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Review thread and task safety in this data pipeline.",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Review thread and task safety in this browser component.",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Review thread and task safety in this Python utility.",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Can two workers interfere with each other in this API endpoint?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Can two workers interfere with each other in this database worker?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Can two workers interfere with each other in this model inference service?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Can two workers interfere with each other in this file parser?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Can two workers interfere with each other in this background job?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Can two workers interfere with each other in this cache implementation?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Can two workers interfere with each other in this command-line tool?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Can two workers interfere with each other in this data pipeline?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Can two workers interfere with each other in this browser component?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Can two workers interfere with each other in this Python utility?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Is cancellation or lock ordering unsafe in this API endpoint?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Is cancellation or lock ordering unsafe in this database worker?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Is cancellation or lock ordering unsafe in this model inference service?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Is cancellation or lock ordering unsafe in this file parser?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Is cancellation or lock ordering unsafe in this background job?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Is cancellation or lock ordering unsafe in this cache implementation?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Is cancellation or lock ordering unsafe in this command-line tool?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Is cancellation or lock ordering unsafe in this data pipeline?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Is cancellation or lock ordering unsafe in this browser component?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Is cancellation or lock ordering unsafe in this Python utility?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Could interleaved execution break the API endpoint?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Could interleaved execution break the database worker?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Could interleaved execution break the model inference service?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Could interleaved execution break the file parser?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Could interleaved execution break the background job?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Could interleaved execution break the cache implementation?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Could interleaved execution break the command-line tool?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Could interleaved execution break the data pipeline?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Could interleaved execution break the browser component?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Could interleaved execution break the Python utility?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Audit coordination between simultaneous workers in the API endpoint.",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Audit coordination between simultaneous workers in the database worker.",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Audit coordination between simultaneous workers in the model inference service.",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Audit coordination between simultaneous workers in the file parser.",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Audit coordination between simultaneous workers in the background job.",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Audit coordination between simultaneous workers in the cache implementation.",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Audit coordination between simultaneous workers in the command-line tool.",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Audit coordination between simultaneous workers in the data pipeline.",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Audit coordination between simultaneous workers in the browser component.",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Audit coordination between simultaneous workers in the Python utility.",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Check why this API endpoint returns the wrong result.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Check why this database worker returns the wrong result.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Check why this model inference service returns the wrong result.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Check why this file parser returns the wrong result.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Check why this background job returns the wrong result.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Check why this cache implementation returns the wrong result.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Check why this command-line tool returns the wrong result.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Check why this data pipeline returns the wrong result.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Check why this browser component returns the wrong result.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Check why this Python utility returns the wrong result.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Find edge cases that make this API endpoint incorrect.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Find edge cases that make this database worker incorrect.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Find edge cases that make this model inference service incorrect.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Find edge cases that make this file parser incorrect.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Find edge cases that make this background job incorrect.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Find edge cases that make this cache implementation incorrect.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Find edge cases that make this command-line tool incorrect.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Find edge cases that make this data pipeline incorrect.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Find edge cases that make this browser component incorrect.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Find edge cases that make this Python utility incorrect.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Does this API endpoint preserve the expected behavior?",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Does this database worker preserve the expected behavior?",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Does this model inference service preserve the expected behavior?",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Does this file parser preserve the expected behavior?",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Does this background job preserve the expected behavior?",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Does this cache implementation preserve the expected behavior?",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Does this command-line tool preserve the expected behavior?",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Does this data pipeline preserve the expected behavior?",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Does this browser component preserve the expected behavior?",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Does this Python utility preserve the expected behavior?",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Locate the defect causing invalid output in this API endpoint.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Locate the defect causing invalid output in this database worker.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Locate the defect causing invalid output in this model inference service.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Locate the defect causing invalid output in this file parser.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Locate the defect causing invalid output in this background job.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Locate the defect causing invalid output in this cache implementation.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Locate the defect causing invalid output in this command-line tool.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Locate the defect causing invalid output in this data pipeline.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Locate the defect causing invalid output in this browser component.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Locate the defect causing invalid output in this Python utility.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Can this API endpoint fail for empty or malformed input?",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Can this database worker fail for empty or malformed input?",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Can this model inference service fail for empty or malformed input?",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Can this file parser fail for empty or malformed input?",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Can this background job fail for empty or malformed input?",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Can this cache implementation fail for empty or malformed input?",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Can this command-line tool fail for empty or malformed input?",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Can this data pipeline fail for empty or malformed input?",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Can this browser component fail for empty or malformed input?",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Can this Python utility fail for empty or malformed input?",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Verify the calculations and control flow in this API endpoint.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Verify the calculations and control flow in this database worker.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Verify the calculations and control flow in this model inference service.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Verify the calculations and control flow in this file parser.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Verify the calculations and control flow in this background job.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Verify the calculations and control flow in this cache implementation.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Verify the calculations and control flow in this command-line tool.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Verify the calculations and control flow in this data pipeline.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Verify the calculations and control flow in this browser component.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Verify the calculations and control flow in this Python utility.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Does the API endpoint produce valid results across boundary conditions?",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Does the database worker produce valid results across boundary conditions?",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Does the model inference service produce valid results across boundary conditions?",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Does the file parser produce valid results across boundary conditions?",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Does the background job produce valid results across boundary conditions?",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Does the cache implementation produce valid results across boundary conditions?",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Does the command-line tool produce valid results across boundary conditions?",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Does the data pipeline produce valid results across boundary conditions?",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Does the browser component produce valid results across boundary conditions?",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Does the Python utility produce valid results across boundary conditions?",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Audit the API endpoint for behavioral defects.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Audit the database worker for behavioral defects.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Audit the model inference service for behavioral defects.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Audit the file parser for behavioral defects.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Audit the background job for behavioral defects.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Audit the cache implementation for behavioral defects.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Audit the command-line tool for behavioral defects.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Audit the data pipeline for behavioral defects.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Audit the browser component for behavioral defects.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Audit the Python utility for behavioral defects.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Find the runtime bottleneck in this API endpoint.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Find the runtime bottleneck in this database worker.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Find the runtime bottleneck in this model inference service.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Find the runtime bottleneck in this file parser.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Find the runtime bottleneck in this background job.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Find the runtime bottleneck in this cache implementation.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Find the runtime bottleneck in this command-line tool.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Find the runtime bottleneck in this data pipeline.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Find the runtime bottleneck in this browser component.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Find the runtime bottleneck in this Python utility.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Can this API endpoint use less memory or CPU?",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Can this database worker use less memory or CPU?",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Can this model inference service use less memory or CPU?",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Can this file parser use less memory or CPU?",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Can this background job use less memory or CPU?",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Can this cache implementation use less memory or CPU?",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Can this command-line tool use less memory or CPU?",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Can this data pipeline use less memory or CPU?",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Can this browser component use less memory or CPU?",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Can this Python utility use less memory or CPU?",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Reduce latency and improve throughput in this API endpoint.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Reduce latency and improve throughput in this database worker.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Reduce latency and improve throughput in this model inference service.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Reduce latency and improve throughput in this file parser.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Reduce latency and improve throughput in this background job.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Reduce latency and improve throughput in this cache implementation.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Reduce latency and improve throughput in this command-line tool.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Reduce latency and improve throughput in this data pipeline.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Reduce latency and improve throughput in this browser component.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Reduce latency and improve throughput in this Python utility.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Does this API endpoint scale to a much larger workload?",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Does this database worker scale to a much larger workload?",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Does this model inference service scale to a much larger workload?",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Does this file parser scale to a much larger workload?",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Does this background job scale to a much larger workload?",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Does this cache implementation scale to a much larger workload?",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Does this command-line tool scale to a much larger workload?",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Does this data pipeline scale to a much larger workload?",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Does this browser component scale to a much larger workload?",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Does this Python utility scale to a much larger workload?",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Look for repeated work or unnecessary allocations in this API endpoint.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Look for repeated work or unnecessary allocations in this database worker.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Look for repeated work or unnecessary allocations in this model inference service.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Look for repeated work or unnecessary allocations in this file parser.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Look for repeated work or unnecessary allocations in this background job.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Look for repeated work or unnecessary allocations in this cache implementation.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Look for repeated work or unnecessary allocations in this command-line tool.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Look for repeated work or unnecessary allocations in this data pipeline.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Look for repeated work or unnecessary allocations in this browser component.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Look for repeated work or unnecessary allocations in this Python utility.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Review the time and space complexity of this API endpoint.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Review the time and space complexity of this database worker.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Review the time and space complexity of this model inference service.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Review the time and space complexity of this file parser.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Review the time and space complexity of this background job.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Review the time and space complexity of this cache implementation.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Review the time and space complexity of this command-line tool.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Review the time and space complexity of this data pipeline.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Review the time and space complexity of this browser component.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Review the time and space complexity of this Python utility.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Could the API endpoint handle ten times the current load efficiently?",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Could the database worker handle ten times the current load efficiently?",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Could the model inference service handle ten times the current load efficiently?",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Could the file parser handle ten times the current load efficiently?",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Could the background job handle ten times the current load efficiently?",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Could the cache implementation handle ten times the current load efficiently?",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Could the command-line tool handle ten times the current load efficiently?",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Could the data pipeline handle ten times the current load efficiently?",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Could the browser component handle ten times the current load efficiently?",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Could the Python utility handle ten times the current load efficiently?",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Audit resource consumption and response time in the API endpoint.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Audit resource consumption and response time in the database worker.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Audit resource consumption and response time in the model inference service.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Audit resource consumption and response time in the file parser.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Audit resource consumption and response time in the background job.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Audit resource consumption and response time in the cache implementation.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Audit resource consumption and response time in the command-line tool.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Audit resource consumption and response time in the data pipeline.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Audit resource consumption and response time in the browser component.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Audit resource consumption and response time in the Python utility.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Make this API endpoint recover safely from partial failures.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Make this database worker recover safely from partial failures.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Make this model inference service recover safely from partial failures.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Make this file parser recover safely from partial failures.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Make this background job recover safely from partial failures.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Make this cache implementation recover safely from partial failures.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Make this command-line tool recover safely from partial failures.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Make this data pipeline recover safely from partial failures.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Make this browser component recover safely from partial failures.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Make this Python utility recover safely from partial failures.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Could this API endpoint lose data when interrupted?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Could this database worker lose data when interrupted?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Could this model inference service lose data when interrupted?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Could this file parser lose data when interrupted?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Could this background job lose data when interrupted?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Could this cache implementation lose data when interrupted?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Could this command-line tool lose data when interrupted?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Could this data pipeline lose data when interrupted?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Could this browser component lose data when interrupted?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Could this Python utility lose data when interrupted?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Check retries, timeouts, and fallback behavior in this API endpoint.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Check retries, timeouts, and fallback behavior in this database worker.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Check retries, timeouts, and fallback behavior in this model inference service.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Check retries, timeouts, and fallback behavior in this file parser.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Check retries, timeouts, and fallback behavior in this background job.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Check retries, timeouts, and fallback behavior in this cache implementation.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Check retries, timeouts, and fallback behavior in this command-line tool.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Check retries, timeouts, and fallback behavior in this data pipeline.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Check retries, timeouts, and fallback behavior in this browser component.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Check retries, timeouts, and fallback behavior in this Python utility.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Does this API endpoint remain dependable during intermittent failures?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Does this database worker remain dependable during intermittent failures?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Does this model inference service remain dependable during intermittent failures?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Does this file parser remain dependable during intermittent failures?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Does this background job remain dependable during intermittent failures?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Does this cache implementation remain dependable during intermittent failures?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Does this command-line tool remain dependable during intermittent failures?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Does this data pipeline remain dependable during intermittent failures?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Does this browser component remain dependable during intermittent failures?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Does this Python utility remain dependable during intermittent failures?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Review idempotency and crash recovery in this API endpoint.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Review idempotency and crash recovery in this database worker.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Review idempotency and crash recovery in this model inference service.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Review idempotency and crash recovery in this file parser.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Review idempotency and crash recovery in this background job.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Review idempotency and crash recovery in this cache implementation.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Review idempotency and crash recovery in this command-line tool.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Review idempotency and crash recovery in this data pipeline.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Review idempotency and crash recovery in this browser component.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Review idempotency and crash recovery in this Python utility.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Can this API endpoint leave corrupted state after an exception?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Can this database worker leave corrupted state after an exception?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Can this model inference service leave corrupted state after an exception?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Can this file parser leave corrupted state after an exception?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Can this background job leave corrupted state after an exception?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Can this cache implementation leave corrupted state after an exception?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Can this command-line tool leave corrupted state after an exception?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Can this data pipeline leave corrupted state after an exception?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Can this browser component leave corrupted state after an exception?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Can this Python utility leave corrupted state after an exception?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Will the API endpoint recover cleanly after an abrupt interruption?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Will the database worker recover cleanly after an abrupt interruption?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Will the model inference service recover cleanly after an abrupt interruption?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Will the file parser recover cleanly after an abrupt interruption?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Will the background job recover cleanly after an abrupt interruption?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Will the cache implementation recover cleanly after an abrupt interruption?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Will the command-line tool recover cleanly after an abrupt interruption?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Will the data pipeline recover cleanly after an abrupt interruption?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Will the browser component recover cleanly after an abrupt interruption?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Will the Python utility recover cleanly after an abrupt interruption?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Audit failure containment and recovery in the API endpoint.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Audit failure containment and recovery in the database worker.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Audit failure containment and recovery in the model inference service.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Audit failure containment and recovery in the file parser.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Audit failure containment and recovery in the background job.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Audit failure containment and recovery in the cache implementation.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Audit failure containment and recovery in the command-line tool.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Audit failure containment and recovery in the data pipeline.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Audit failure containment and recovery in the browser component.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Audit failure containment and recovery in the Python utility.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Review whether this API endpoint is easy to maintain.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Review whether this database worker is easy to maintain.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Review whether this model inference service is easy to maintain.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Review whether this file parser is easy to maintain.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Review whether this background job is easy to maintain.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Review whether this cache implementation is easy to maintain.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Review whether this command-line tool is easy to maintain.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Review whether this data pipeline is easy to maintain.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Review whether this browser component is easy to maintain.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Review whether this Python utility is easy to maintain.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Can the design of this API endpoint be simplified?",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Can the design of this database worker be simplified?",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Can the design of this model inference service be simplified?",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Can the design of this file parser be simplified?",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Can the design of this background job be simplified?",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Can the design of this cache implementation be simplified?",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Can the design of this command-line tool be simplified?",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Can the design of this data pipeline be simplified?",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Can the design of this browser component be simplified?",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Can the design of this Python utility be simplified?",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Look for duplication, tight coupling, or unclear responsibilities in this API endpoint.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Look for duplication, tight coupling, or unclear responsibilities in this database worker.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Look for duplication, tight coupling, or unclear responsibilities in this model inference service.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Look for duplication, tight coupling, or unclear responsibilities in this file parser.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Look for duplication, tight coupling, or unclear responsibilities in this background job.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Look for duplication, tight coupling, or unclear responsibilities in this cache implementation.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Look for duplication, tight coupling, or unclear responsibilities in this command-line tool.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Look for duplication, tight coupling, or unclear responsibilities in this data pipeline.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Look for duplication, tight coupling, or unclear responsibilities in this browser component.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Look for duplication, tight coupling, or unclear responsibilities in this Python utility.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Would smaller modules make this API endpoint easier to extend?",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Would smaller modules make this database worker easier to extend?",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Would smaller modules make this model inference service easier to extend?",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Would smaller modules make this file parser easier to extend?",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Would smaller modules make this background job easier to extend?",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Would smaller modules make this cache implementation easier to extend?",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Would smaller modules make this command-line tool easier to extend?",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Would smaller modules make this data pipeline easier to extend?",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Would smaller modules make this browser component easier to extend?",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Would smaller modules make this Python utility easier to extend?",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Check readability and code quality in this API endpoint.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Check readability and code quality in this database worker.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Check readability and code quality in this model inference service.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Check readability and code quality in this file parser.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Check readability and code quality in this background job.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Check readability and code quality in this cache implementation.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Check readability and code quality in this command-line tool.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Check readability and code quality in this data pipeline.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Check readability and code quality in this browser component.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Check readability and code quality in this Python utility.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Assess the public interface and internal organization of this API endpoint.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Assess the public interface and internal organization of this database worker.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Assess the public interface and internal organization of this model inference service.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Assess the public interface and internal organization of this file parser.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Assess the public interface and internal organization of this background job.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Assess the public interface and internal organization of this cache implementation.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Assess the public interface and internal organization of this command-line tool.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Assess the public interface and internal organization of this data pipeline.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Assess the public interface and internal organization of this browser component.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Assess the public interface and internal organization of this Python utility.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Could another engineer safely evolve the API endpoint?",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Could another engineer safely evolve the database worker?",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Could another engineer safely evolve the model inference service?",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Could another engineer safely evolve the file parser?",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Could another engineer safely evolve the background job?",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Could another engineer safely evolve the cache implementation?",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Could another engineer safely evolve the command-line tool?",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Could another engineer safely evolve the data pipeline?",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Could another engineer safely evolve the browser component?",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Could another engineer safely evolve the Python utility?",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Audit the organization and long-term clarity of the API endpoint.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Audit the organization and long-term clarity of the database worker.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Audit the organization and long-term clarity of the model inference service.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Audit the organization and long-term clarity of the file parser.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Audit the organization and long-term clarity of the background job.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Audit the organization and long-term clarity of the cache implementation.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Audit the organization and long-term clarity of the command-line tool.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Audit the organization and long-term clarity of the data pipeline.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Audit the organization and long-term clarity of the browser component.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Audit the organization and long-term clarity of the Python utility.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Check whether this API endpoint can expose secrets, and could this API endpoint deadlock under concurrent use?",
+    "labels": [
+      "concurrency",
+      "security"
+    ]
+  },
+  {
+    "text": "Could an attacker bypass authorization in this database worker, and is shared state in this database worker synchronized correctly?",
+    "labels": [
+      "concurrency",
+      "security"
+    ]
+  },
+  {
+    "text": "Review the model inference service for injection or unsafe input handling, and review thread and task safety in this model inference service.",
+    "labels": [
+      "concurrency",
+      "security"
+    ]
+  },
+  {
+    "text": "Check whether this database worker can expose secrets, and find edge cases that make this database worker incorrect.",
+    "labels": [
+      "correctness",
+      "security"
+    ]
+  },
+  {
+    "text": "Could an attacker bypass authorization in this model inference service, and does this model inference service preserve the expected behavior?",
+    "labels": [
+      "correctness",
+      "security"
+    ]
+  },
+  {
+    "text": "Review the file parser for injection or unsafe input handling, and locate the defect causing invalid output in this file parser.",
+    "labels": [
+      "correctness",
+      "security"
+    ]
+  },
+  {
+    "text": "Check whether this model inference service can expose secrets, and can this model inference service use less memory or CPU?",
+    "labels": [
+      "performance",
+      "security"
+    ]
+  },
+  {
+    "text": "Could an attacker bypass authorization in this file parser, and reduce latency and improve throughput in this file parser.",
+    "labels": [
+      "performance",
+      "security"
+    ]
+  },
+  {
+    "text": "Review the background job for injection or unsafe input handling, and does this background job scale to a much larger workload?",
+    "labels": [
+      "performance",
+      "security"
+    ]
+  },
+  {
+    "text": "Check whether this file parser can expose secrets, and could this file parser lose data when interrupted?",
+    "labels": [
+      "reliability",
+      "security"
+    ]
+  },
+  {
+    "text": "Could an attacker bypass authorization in this background job, and check retries, timeouts, and fallback behavior in this background job.",
+    "labels": [
+      "reliability",
+      "security"
+    ]
+  },
+  {
+    "text": "Review the cache implementation for injection or unsafe input handling, and does this cache implementation remain dependable during intermittent failures?",
+    "labels": [
+      "reliability",
+      "security"
+    ]
+  },
+  {
+    "text": "Check whether this background job can expose secrets, and can the design of this background job be simplified?",
+    "labels": [
+      "maintainability",
+      "security"
+    ]
+  },
+  {
+    "text": "Could an attacker bypass authorization in this cache implementation, and look for duplication, tight coupling, or unclear responsibilities in this cache implementation.",
+    "labels": [
+      "maintainability",
+      "security"
+    ]
+  },
+  {
+    "text": "Review the command-line tool for injection or unsafe input handling, and would smaller modules make this command-line tool easier to extend?",
+    "labels": [
+      "maintainability",
+      "security"
+    ]
+  },
+  {
+    "text": "Check whether this cache implementation has a race condition, and find edge cases that make this cache implementation incorrect.",
+    "labels": [
+      "concurrency",
+      "correctness"
+    ]
+  },
+  {
+    "text": "Could this command-line tool deadlock under concurrent use, and does this command-line tool preserve the expected behavior?",
+    "labels": [
+      "concurrency",
+      "correctness"
+    ]
+  },
+  {
+    "text": "Is shared state in this data pipeline synchronized correctly, and locate the defect causing invalid output in this data pipeline.",
+    "labels": [
+      "concurrency",
+      "correctness"
+    ]
+  },
+  {
+    "text": "Check whether this command-line tool has a race condition, and can this command-line tool use less memory or CPU?",
+    "labels": [
+      "concurrency",
+      "performance"
+    ]
+  },
+  {
+    "text": "Could this data pipeline deadlock under concurrent use, and reduce latency and improve throughput in this data pipeline.",
+    "labels": [
+      "concurrency",
+      "performance"
+    ]
+  },
+  {
+    "text": "Is shared state in this browser component synchronized correctly, and does this browser component scale to a much larger workload?",
+    "labels": [
+      "concurrency",
+      "performance"
+    ]
+  },
+  {
+    "text": "Check whether this data pipeline has a race condition, and could this data pipeline lose data when interrupted?",
+    "labels": [
+      "concurrency",
+      "reliability"
+    ]
+  },
+  {
+    "text": "Could this browser component deadlock under concurrent use, and check retries, timeouts, and fallback behavior in this browser component.",
+    "labels": [
+      "concurrency",
+      "reliability"
+    ]
+  },
+  {
+    "text": "Is shared state in this Python utility synchronized correctly, and does this Python utility remain dependable during intermittent failures?",
+    "labels": [
+      "concurrency",
+      "reliability"
+    ]
+  },
+  {
+    "text": "Check whether this browser component has a race condition, and can the design of this browser component be simplified?",
+    "labels": [
+      "concurrency",
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Could this Python utility deadlock under concurrent use, and look for duplication, tight coupling, or unclear responsibilities in this Python utility.",
+    "labels": [
+      "concurrency",
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Is shared state in this API endpoint synchronized correctly, and would smaller modules make this API endpoint easier to extend?",
+    "labels": [
+      "concurrency",
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Check why this Python utility returns the wrong result, and can this Python utility use less memory or CPU?",
+    "labels": [
+      "correctness",
+      "performance"
+    ]
+  },
+  {
+    "text": "Find edge cases that make this API endpoint incorrect, and reduce latency and improve throughput in this API endpoint.",
+    "labels": [
+      "correctness",
+      "performance"
+    ]
+  },
+  {
+    "text": "Does this database worker preserve the expected behavior, and does this database worker scale to a much larger workload?",
+    "labels": [
+      "correctness",
+      "performance"
+    ]
+  },
+  {
+    "text": "Check why this API endpoint returns the wrong result, and could this API endpoint lose data when interrupted?",
+    "labels": [
+      "correctness",
+      "reliability"
+    ]
+  },
+  {
+    "text": "Find edge cases that make this database worker incorrect, and check retries, timeouts, and fallback behavior in this database worker.",
+    "labels": [
+      "correctness",
+      "reliability"
+    ]
+  },
+  {
+    "text": "Does this model inference service preserve the expected behavior, and does this model inference service remain dependable during intermittent failures?",
+    "labels": [
+      "correctness",
+      "reliability"
+    ]
+  },
+  {
+    "text": "Check why this database worker returns the wrong result, and can the design of this database worker be simplified?",
+    "labels": [
+      "correctness",
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Find edge cases that make this model inference service incorrect, and look for duplication, tight coupling, or unclear responsibilities in this model inference service.",
+    "labels": [
+      "correctness",
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Does this file parser preserve the expected behavior, and would smaller modules make this file parser easier to extend?",
+    "labels": [
+      "correctness",
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Find the runtime bottleneck in this model inference service, and could this model inference service lose data when interrupted?",
+    "labels": [
+      "performance",
+      "reliability"
+    ]
+  },
+  {
+    "text": "Can this file parser use less memory or CPU, and check retries, timeouts, and fallback behavior in this file parser.",
+    "labels": [
+      "performance",
+      "reliability"
+    ]
+  },
+  {
+    "text": "Reduce latency and improve throughput in this background job, and does this background job remain dependable during intermittent failures?",
+    "labels": [
+      "performance",
+      "reliability"
+    ]
+  },
+  {
+    "text": "Find the runtime bottleneck in this file parser, and can the design of this file parser be simplified?",
+    "labels": [
+      "maintainability",
+      "performance"
+    ]
+  },
+  {
+    "text": "Can this background job use less memory or CPU, and look for duplication, tight coupling, or unclear responsibilities in this background job.",
+    "labels": [
+      "maintainability",
+      "performance"
+    ]
+  },
+  {
+    "text": "Reduce latency and improve throughput in this cache implementation, and would smaller modules make this cache implementation easier to extend?",
+    "labels": [
+      "maintainability",
+      "performance"
+    ]
+  },
+  {
+    "text": "Make this background job recover safely from partial failures, and can the design of this background job be simplified?",
+    "labels": [
+      "maintainability",
+      "reliability"
+    ]
+  },
+  {
+    "text": "Could this cache implementation lose data when interrupted, and look for duplication, tight coupling, or unclear responsibilities in this cache implementation.",
+    "labels": [
+      "maintainability",
+      "reliability"
+    ]
+  },
+  {
+    "text": "Check retries, timeouts, and fallback behavior in this command-line tool, and would smaller modules make this command-line tool easier to extend?",
+    "labels": [
+      "maintainability",
+      "reliability"
+    ]
+  },
+  {
+    "text": "Review this async session cache for races and exposed secrets.",
+    "labels": [
+      "concurrency",
+      "security"
+    ]
+  },
+  {
+    "text": "Could simultaneous requests bypass authorization and leak another user's token?",
+    "labels": [
+      "concurrency",
+      "security"
+    ]
+  },
+  {
+    "text": "Can malformed input both exploit this parser and produce an incorrect result?",
+    "labels": [
+      "correctness",
+      "security"
+    ]
+  },
+  {
+    "text": "Check whether weak validation creates a vulnerability or wrong output.",
+    "labels": [
+      "correctness",
+      "security"
+    ]
+  },
+  {
+    "text": "Could this authentication check be both insecure and too slow under attack?",
+    "labels": [
+      "performance",
+      "security"
+    ]
+  },
+  {
+    "text": "Review the encryption service for attack resistance and latency.",
+    "labels": [
+      "performance",
+      "security"
+    ]
+  },
+  {
+    "text": "Could a failed key rotation expose secrets or leave the service unavailable?",
+    "labels": [
+      "reliability",
+      "security"
+    ]
+  },
+  {
+    "text": "Check secure storage and recovery after a credential update fails.",
+    "labels": [
+      "reliability",
+      "security"
+    ]
+  },
+  {
+    "text": "Is this authorization module secure and easy for engineers to maintain?",
+    "labels": [
+      "maintainability",
+      "security"
+    ]
+  },
+  {
+    "text": "Review the access-control code for vulnerabilities and design clarity.",
+    "labels": [
+      "maintainability",
+      "security"
+    ]
+  },
+  {
+    "text": "Can a race condition make this counter produce the wrong total?",
+    "labels": [
+      "concurrency",
+      "correctness"
+    ]
+  },
+  {
+    "text": "Does task cancellation create inconsistent results in this worker?",
+    "labels": [
+      "concurrency",
+      "correctness"
+    ]
+  },
+  {
+    "text": "Review lock contention and throughput in this parallel pipeline.",
+    "labels": [
+      "concurrency",
+      "performance"
+    ]
+  },
+  {
+    "text": "Could synchronization overhead make this worker pool too slow?",
+    "labels": [
+      "concurrency",
+      "performance"
+    ]
+  },
+  {
+    "text": "Can a deadlock prevent recovery after one worker fails?",
+    "labels": [
+      "concurrency",
+      "reliability"
+    ]
+  },
+  {
+    "text": "Check concurrent writes for corruption and safe retry behavior.",
+    "labels": [
+      "concurrency",
+      "reliability"
+    ]
+  },
+  {
+    "text": "Is the locking strategy understandable and maintainable?",
+    "labels": [
+      "concurrency",
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Review this async design for task safety and code clarity.",
+    "labels": [
+      "concurrency",
+      "maintainability"
+    ]
+  },
+  {
+    "text": "The output is sometimes wrong and the algorithm is too slow.",
+    "labels": [
+      "correctness",
+      "performance"
+    ]
+  },
+  {
+    "text": "Check both result accuracy and runtime complexity.",
+    "labels": [
+      "correctness",
+      "performance"
+    ]
+  },
+  {
+    "text": "Could this failure corrupt data and return an incorrect response?",
+    "labels": [
+      "correctness",
+      "reliability"
+    ]
+  },
+  {
+    "text": "Verify correct behavior and dependable recovery from exceptions.",
+    "labels": [
+      "correctness",
+      "reliability"
+    ]
+  },
+  {
+    "text": "Is this implementation correct and straightforward to maintain?",
+    "labels": [
+      "correctness",
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Review edge-case behavior and the clarity of the design.",
+    "labels": [
+      "correctness",
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Improve throughput without making failure recovery less reliable.",
+    "labels": [
+      "performance",
+      "reliability"
+    ]
+  },
+  {
+    "text": "Check latency as well as resilience during partial outages.",
+    "labels": [
+      "performance",
+      "reliability"
+    ]
+  },
+  {
+    "text": "Can we improve performance without making the code harder to maintain?",
+    "labels": [
+      "maintainability",
+      "performance"
+    ]
+  },
+  {
+    "text": "Review allocation costs and structural complexity together.",
+    "labels": [
+      "maintainability",
+      "performance"
+    ]
+  },
+  {
+    "text": "Make failure recovery easier to understand and safely extend.",
+    "labels": [
+      "maintainability",
+      "reliability"
+    ]
+  },
+  {
+    "text": "Review retry behavior and long-term maintainability.",
+    "labels": [
+      "maintainability",
+      "reliability"
+    ]
+  },
+  {
+    "text": "Explain what this async function does.",
+    "labels": []
+  },
+  {
+    "text": "Write an example password hashing function.",
+    "labels": []
+  },
+  {
+    "text": "Describe how this database transaction works.",
+    "labels": []
+  },
+  {
+    "text": "Create a threaded queue consumer.",
+    "labels": []
+  },
+  {
+    "text": "What is the time complexity of binary search?",
+    "labels": []
+  },
+  {
+    "text": "Show me a clean API endpoint example.",
+    "labels": []
+  },
+  {
+    "text": "Explain why tokens are used in this parser.",
+    "labels": []
+  },
+  {
+    "text": "Generate a model inference script.",
+    "labels": []
+  },
+  {
+    "text": "Walk through this lock implementation.",
+    "labels": []
+  },
+  {
+    "text": "What does this retry parameter mean?",
+    "labels": []
+  },
+  {
+    "text": "Create a React component for this page.",
+    "labels": []
+  },
+  {
+    "text": "Explain this SQL query step by step.",
+    "labels": []
+  },
+  {
+    "text": "Write a file upload handler.",
+    "labels": []
+  },
+  {
+    "text": "Describe the current module structure.",
+    "labels": []
+  },
+  {
+    "text": "Show an example of task cancellation.",
+    "labels": []
+  },
+  {
+    "text": "What is authentication?",
+    "labels": []
+  },
+  {
+    "text": "What is a race condition?",
+    "labels": []
+  },
+  {
+    "text": "What is code maintainability?",
+    "labels": []
+  },
+  {
+    "text": "What does reliability mean in software?",
+    "labels": []
+  },
+  {
+    "text": "Explain latency and throughput.",
+    "labels": []
+  },
+  {
+    "text": "Could two requests read the old balance and both write back conflicting updates?",
+    "labels": [
+      "concurrency"
+    ],
+    "concern": "concurrency",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "What happens if both workers reach the cache refresh at the same moment?",
+    "labels": [
+      "concurrency"
+    ],
+    "concern": "concurrency",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Can cancellation land between removing the item and acknowledging it?",
+    "labels": [
+      "concurrency"
+    ],
+    "concern": "concurrency",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Could one task observe the object after another task has only half updated it?",
+    "labels": [
+      "concurrency"
+    ],
+    "concern": "concurrency",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Does the callback ever run after shutdown has already closed the resource?",
+    "labels": [
+      "concurrency"
+    ],
+    "concern": "concurrency",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Can execution order change which value finally remains in this dictionary?",
+    "labels": [
+      "concurrency"
+    ],
+    "concern": "concurrency",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "What prevents both refresh jobs from replacing the same entry?",
+    "labels": [
+      "concurrency"
+    ],
+    "concern": "concurrency",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Could a waiter miss the notification because it starts listening too late?",
+    "labels": [
+      "concurrency"
+    ],
+    "concern": "concurrency",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Can one request release a resource while another request is still using it?",
+    "labels": [
+      "concurrency"
+    ],
+    "concern": "concurrency",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Is it possible for each worker to wait forever for progress from the other?",
+    "labels": [
+      "concurrency"
+    ],
+    "concern": "concurrency",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Explain how the event loop schedules ready callbacks.",
+    "labels": [],
+    "concern": "concurrency",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Write an async client that downloads several URLs.",
+    "labels": [],
+    "concern": "concurrency",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Convert this synchronous iterator into an async generator.",
+    "labels": [],
+    "concern": "concurrency",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Show a basic producer-consumer example using a queue.",
+    "labels": [],
+    "concern": "concurrency",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "What is the difference between a process and a thread?",
+    "labels": [],
+    "concern": "concurrency",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Create four worker tasks and wait for all of them.",
+    "labels": [],
+    "concern": "concurrency",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Explain what acquire and release mean for a semaphore.",
+    "labels": [],
+    "concern": "concurrency",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Rewrite this function using asyncio syntax.",
+    "labels": [],
+    "concern": "concurrency",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Demonstrate how a condition variable is normally used.",
+    "labels": [],
+    "concern": "concurrency",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Walk through this thread-pool example line by line.",
+    "labels": [],
+    "concern": "concurrency",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "What does this lock protect?",
+    "labels": [],
+    "concern": "concurrency",
+    "slice": "minimal_pair",
+    "pair_id": "concurrency_lock_1"
+  },
+  {
+    "text": "Does this lock actually protect every access to the shared map?",
+    "labels": [
+      "concurrency"
+    ],
+    "concern": "concurrency",
+    "slice": "minimal_pair",
+    "pair_id": "concurrency_lock_1"
+  },
+  {
+    "text": "Explain when the callback runs.",
+    "labels": [],
+    "concern": "concurrency",
+    "slice": "minimal_pair",
+    "pair_id": "concurrency_callback_2"
+  },
+  {
+    "text": "Can the callback run after cancellation and mutate stale state?",
+    "labels": [
+      "concurrency"
+    ],
+    "concern": "concurrency",
+    "slice": "minimal_pair",
+    "pair_id": "concurrency_callback_2"
+  },
+  {
+    "text": "Show how two workers process this queue.",
+    "labels": [],
+    "concern": "concurrency",
+    "slice": "minimal_pair",
+    "pair_id": "concurrency_workers_3"
+  },
+  {
+    "text": "Can two workers process the same queue item at once?",
+    "labels": [
+      "concurrency"
+    ],
+    "concern": "concurrency",
+    "slice": "minimal_pair",
+    "pair_id": "concurrency_workers_3"
+  },
+  {
+    "text": "Explain the order in which these tasks are awaited.",
+    "labels": [],
+    "concern": "concurrency",
+    "slice": "minimal_pair",
+    "pair_id": "concurrency_await_4"
+  },
+  {
+    "text": "Can this await occur while the lock is held and block every other task?",
+    "labels": [
+      "concurrency"
+    ],
+    "concern": "concurrency",
+    "slice": "minimal_pair",
+    "pair_id": "concurrency_await_4"
+  },
+  {
+    "text": "What value does the shared counter end with in this example?",
+    "labels": [],
+    "concern": "concurrency",
+    "slice": "minimal_pair",
+    "pair_id": "concurrency_counter_5"
+  },
+  {
+    "text": "Can simultaneous increments make the shared counter lose updates?",
+    "labels": [
+      "concurrency"
+    ],
+    "concern": "concurrency",
+    "slice": "minimal_pair",
+    "pair_id": "concurrency_counter_5"
+  },
+  {
+    "text": "Could overlapping requests both corrupt the result and expose another user's token?",
+    "labels": [
+      "concurrency",
+      "correctness",
+      "security"
+    ],
+    "concern": "concurrency",
+    "slice": "mixed_positive"
+  },
+  {
+    "text": "Can lock contention make the endpoint slow and prevent retries from completing?",
+    "labels": [
+      "concurrency",
+      "performance",
+      "reliability"
+    ],
+    "concern": "concurrency",
+    "slice": "mixed_positive"
+  },
+  {
+    "text": "Is the synchronization strategy safe and understandable enough to maintain?",
+    "labels": [
+      "concurrency",
+      "maintainability"
+    ],
+    "concern": "concurrency",
+    "slice": "mixed_positive"
+  },
+  {
+    "text": "Could cancellation leave partially written data that later requests treat as valid?",
+    "labels": [
+      "concurrency",
+      "correctness",
+      "reliability"
+    ],
+    "concern": "concurrency",
+    "slice": "mixed_positive"
+  },
+  {
+    "text": "Can parallel validation bypass authorization checks under load?",
+    "labels": [
+      "concurrency",
+      "security"
+    ],
+    "concern": "concurrency",
+    "slice": "mixed_positive"
+  },
+  {
+    "text": "Does coordinating these workers add unnecessary latency and architectural complexity?",
+    "labels": [
+      "concurrency",
+      "performance",
+      "maintainability"
+    ],
+    "concern": "concurrency",
+    "slice": "mixed_positive"
+  },
+  {
+    "text": "Could the final total be wrong when every intermediate value looks reasonable?",
+    "labels": [
+      "correctness"
+    ],
+    "concern": "correctness",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "What happens when the input contains two equal boundary values?",
+    "labels": [
+      "correctness"
+    ],
+    "concern": "correctness",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Can this silently omit the last record in a batch?",
+    "labels": [
+      "correctness"
+    ],
+    "concern": "correctness",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Does rounding before aggregation change the result users receive?",
+    "labels": [
+      "correctness"
+    ],
+    "concern": "correctness",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Could this parser accept a malformed header and shift every following field?",
+    "labels": [
+      "correctness"
+    ],
+    "concern": "correctness",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Will an empty collection take the same path as a missing collection?",
+    "labels": [
+      "correctness"
+    ],
+    "concern": "correctness",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Can this update leave the index and stored records disagreeing?",
+    "labels": [
+      "correctness"
+    ],
+    "concern": "correctness",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Does the comparison still work when both numbers are negative?",
+    "labels": [
+      "correctness"
+    ],
+    "concern": "correctness",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Could retries apply the same payment twice?",
+    "labels": [
+      "correctness"
+    ],
+    "concern": "correctness",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Is the fallback returning a value with a different unit than the normal path?",
+    "labels": [
+      "correctness"
+    ],
+    "concern": "correctness",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Trace what this function returns for an empty list.",
+    "labels": [],
+    "concern": "correctness",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Explain why the expected value in this test is twelve.",
+    "labels": [],
+    "concern": "correctness",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Show the output for the sample input.",
+    "labels": [],
+    "concern": "correctness",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "What does the validation branch do?",
+    "labels": [],
+    "concern": "correctness",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Describe how errors are represented in the response.",
+    "labels": [],
+    "concern": "correctness",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Walk through the base case without changing it.",
+    "labels": [],
+    "concern": "correctness",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Generate three edge-case examples for this function.",
+    "labels": [],
+    "concern": "correctness",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "What result should the documented algorithm produce?",
+    "labels": [],
+    "concern": "correctness",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Explain the assertion on line twenty.",
+    "labels": [],
+    "concern": "correctness",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "List the possible return values of this parser.",
+    "labels": [],
+    "concern": "correctness",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "What does this return for an empty input?",
+    "labels": [],
+    "concern": "correctness",
+    "slice": "minimal_pair",
+    "pair_id": "correctness_empty_1"
+  },
+  {
+    "text": "Does this return the correct value for an empty input?",
+    "labels": [
+      "correctness"
+    ],
+    "concern": "correctness",
+    "slice": "minimal_pair",
+    "pair_id": "correctness_empty_1"
+  },
+  {
+    "text": "Explain how duplicates are handled.",
+    "labels": [],
+    "concern": "correctness",
+    "slice": "minimal_pair",
+    "pair_id": "correctness_duplicates_2"
+  },
+  {
+    "text": "Can duplicate inputs cause duplicate output records that should not exist?",
+    "labels": [
+      "correctness"
+    ],
+    "concern": "correctness",
+    "slice": "minimal_pair",
+    "pair_id": "correctness_duplicates_2"
+  },
+  {
+    "text": "Trace the calculation when the amount is negative.",
+    "labels": [],
+    "concern": "correctness",
+    "slice": "minimal_pair",
+    "pair_id": "correctness_negative_3"
+  },
+  {
+    "text": "Is the calculation still valid when the amount is negative?",
+    "labels": [
+      "correctness"
+    ],
+    "concern": "correctness",
+    "slice": "minimal_pair",
+    "pair_id": "correctness_negative_3"
+  },
+  {
+    "text": "Describe the fallback path.",
+    "labels": [],
+    "concern": "correctness",
+    "slice": "minimal_pair",
+    "pair_id": "correctness_fallback_4"
+  },
+  {
+    "text": "Can the fallback path return stale or invalid data?",
+    "labels": [
+      "correctness"
+    ],
+    "concern": "correctness",
+    "slice": "minimal_pair",
+    "pair_id": "correctness_fallback_4"
+  },
+  {
+    "text": "What happens after the transaction retries?",
+    "labels": [],
+    "concern": "correctness",
+    "slice": "minimal_pair",
+    "pair_id": "correctness_retry_5"
+  },
+  {
+    "text": "Can retrying the transaction apply the update more than once?",
+    "labels": [
+      "correctness"
+    ],
+    "concern": "correctness",
+    "slice": "minimal_pair",
+    "pair_id": "correctness_retry_5"
+  },
+  {
+    "text": "Could a race make this calculation wrong only under peak load?",
+    "labels": [
+      "concurrency",
+      "correctness"
+    ],
+    "concern": "correctness",
+    "slice": "mixed_positive"
+  },
+  {
+    "text": "Can malformed input produce a wrong result and bypass a security check?",
+    "labels": [
+      "correctness",
+      "security"
+    ],
+    "concern": "correctness",
+    "slice": "mixed_positive"
+  },
+  {
+    "text": "Does the faster implementation preserve every edge-case result?",
+    "labels": [
+      "correctness",
+      "performance"
+    ],
+    "concern": "correctness",
+    "slice": "mixed_positive"
+  },
+  {
+    "text": "Could a crash leave valid-looking but incorrect persisted state?",
+    "labels": [
+      "correctness",
+      "reliability"
+    ],
+    "concern": "correctness",
+    "slice": "mixed_positive"
+  },
+  {
+    "text": "Is this logic both correct and clear enough to modify safely?",
+    "labels": [
+      "correctness",
+      "maintainability"
+    ],
+    "concern": "correctness",
+    "slice": "mixed_positive"
+  },
+  {
+    "text": "Can cancellation create an invalid result that survives the retry?",
+    "labels": [
+      "concurrency",
+      "correctness",
+      "reliability"
+    ],
+    "concern": "correctness",
+    "slice": "mixed_positive"
+  },
+  {
+    "text": "Will adding another payment provider require edits in every service class?",
+    "labels": [
+      "maintainability"
+    ],
+    "concern": "maintainability",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Could a new engineer tell which module owns this responsibility?",
+    "labels": [
+      "maintainability"
+    ],
+    "concern": "maintainability",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Are these abstractions hiding the flow instead of simplifying it?",
+    "labels": [
+      "maintainability"
+    ],
+    "concern": "maintainability",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Does this helper know too much about storage, validation, and presentation?",
+    "labels": [
+      "maintainability"
+    ],
+    "concern": "maintainability",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Will changing the response format force unrelated components to change?",
+    "labels": [
+      "maintainability"
+    ],
+    "concern": "maintainability",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Is the same business rule duplicated in several handlers?",
+    "labels": [
+      "maintainability"
+    ],
+    "concern": "maintainability",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Can this module be extended without understanding hidden global state?",
+    "labels": [
+      "maintainability"
+    ],
+    "concern": "maintainability",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Are the names and boundaries clear enough to prevent accidental misuse?",
+    "labels": [
+      "maintainability"
+    ],
+    "concern": "maintainability",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Does this inheritance hierarchy make ordinary changes unnecessarily risky?",
+    "labels": [
+      "maintainability"
+    ],
+    "concern": "maintainability",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Would this design survive another year of feature additions without becoming tangled?",
+    "labels": [
+      "maintainability"
+    ],
+    "concern": "maintainability",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Explain the current package structure.",
+    "labels": [],
+    "concern": "maintainability",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Generate a clean example implementation.",
+    "labels": [],
+    "concern": "maintainability",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Show how to split a string into smaller pieces.",
+    "labels": [],
+    "concern": "maintainability",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "What does this helper class do?",
+    "labels": [],
+    "concern": "maintainability",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Create a module with three utility functions.",
+    "labels": [],
+    "concern": "maintainability",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Describe the public interface of this library.",
+    "labels": [],
+    "concern": "maintainability",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Write the same example using a dataclass.",
+    "labels": [],
+    "concern": "maintainability",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Explain why this project uses dependency injection.",
+    "labels": [],
+    "concern": "maintainability",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "List the classes defined in this file.",
+    "labels": [],
+    "concern": "maintainability",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Demonstrate a repository pattern implementation.",
+    "labels": [],
+    "concern": "maintainability",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "How are these modules organized?",
+    "labels": [],
+    "concern": "maintainability",
+    "slice": "minimal_pair",
+    "pair_id": "maintainability_modules_1"
+  },
+  {
+    "text": "Are these module boundaries too coupled to change independently?",
+    "labels": [
+      "maintainability"
+    ],
+    "concern": "maintainability",
+    "slice": "minimal_pair",
+    "pair_id": "maintainability_modules_1"
+  },
+  {
+    "text": "What does this abstraction represent?",
+    "labels": [],
+    "concern": "maintainability",
+    "slice": "minimal_pair",
+    "pair_id": "maintainability_abstraction_2"
+  },
+  {
+    "text": "Does this abstraction make the code harder to understand and extend?",
+    "labels": [
+      "maintainability"
+    ],
+    "concern": "maintainability",
+    "slice": "minimal_pair",
+    "pair_id": "maintainability_abstraction_2"
+  },
+  {
+    "text": "Show where this validation rule is implemented.",
+    "labels": [],
+    "concern": "maintainability",
+    "slice": "minimal_pair",
+    "pair_id": "maintainability_rule_3"
+  },
+  {
+    "text": "Is this validation rule duplicated in too many places to maintain safely?",
+    "labels": [
+      "maintainability"
+    ],
+    "concern": "maintainability",
+    "slice": "minimal_pair",
+    "pair_id": "maintainability_rule_3"
+  },
+  {
+    "text": "Explain the class hierarchy.",
+    "labels": [],
+    "concern": "maintainability",
+    "slice": "minimal_pair",
+    "pair_id": "maintainability_hierarchy_4"
+  },
+  {
+    "text": "Is this class hierarchy too deep for ordinary changes to remain safe?",
+    "labels": [
+      "maintainability"
+    ],
+    "concern": "maintainability",
+    "slice": "minimal_pair",
+    "pair_id": "maintainability_hierarchy_4"
+  },
+  {
+    "text": "What responsibilities does this service have?",
+    "labels": [],
+    "concern": "maintainability",
+    "slice": "minimal_pair",
+    "pair_id": "maintainability_service_5"
+  },
+  {
+    "text": "Does this service have too many unrelated responsibilities to maintain well?",
+    "labels": [
+      "maintainability"
+    ],
+    "concern": "maintainability",
+    "slice": "minimal_pair",
+    "pair_id": "maintainability_service_5"
+  },
+  {
+    "text": "Can we simplify this design without reintroducing a performance bottleneck?",
+    "labels": [
+      "maintainability",
+      "performance"
+    ],
+    "concern": "maintainability",
+    "slice": "mixed_positive"
+  },
+  {
+    "text": "Is the locking code both safe under contention and understandable to future maintainers?",
+    "labels": [
+      "concurrency",
+      "maintainability"
+    ],
+    "concern": "maintainability",
+    "slice": "mixed_positive"
+  },
+  {
+    "text": "Does this validation flow remain correct while being easy to extend?",
+    "labels": [
+      "correctness",
+      "maintainability"
+    ],
+    "concern": "maintainability",
+    "slice": "mixed_positive"
+  },
+  {
+    "text": "Can recovery behavior be changed without touching every subsystem?",
+    "labels": [
+      "maintainability",
+      "reliability"
+    ],
+    "concern": "maintainability",
+    "slice": "mixed_positive"
+  },
+  {
+    "text": "Is the authorization design secure without scattering policy checks everywhere?",
+    "labels": [
+      "maintainability",
+      "security"
+    ],
+    "concern": "maintainability",
+    "slice": "mixed_positive"
+  },
+  {
+    "text": "Could this async architecture become both slow and difficult to evolve?",
+    "labels": [
+      "concurrency",
+      "maintainability",
+      "performance"
+    ],
+    "concern": "maintainability",
+    "slice": "mixed_positive"
+  },
+  {
+    "text": "Can a user change the account id in this request and read someone else's invoice?",
+    "labels": [
+      "security"
+    ],
+    "concern": "security",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Could a crafted archive name write files outside the extraction directory?",
+    "labels": [
+      "security"
+    ],
+    "concern": "security",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Does comparing these signatures reveal how many bytes were correct?",
+    "labels": [
+      "security"
+    ],
+    "concern": "security",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Can an old reset link still be used after the password changes?",
+    "labels": [
+      "security"
+    ],
+    "concern": "security",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Could the browser send this credential to an untrusted origin?",
+    "labels": [
+      "security"
+    ],
+    "concern": "security",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Can a tenant choose another tenant's storage prefix?",
+    "labels": [
+      "security"
+    ],
+    "concern": "security",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Does this redirect accept destinations outside our application?",
+    "labels": [
+      "security"
+    ],
+    "concern": "security",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Could an error response reveal whether a username exists?",
+    "labels": [
+      "security"
+    ],
+    "concern": "security",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Can a revoked device continue using its cached session?",
+    "labels": [
+      "security"
+    ],
+    "concern": "security",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Is untrusted markup inserted into the page without escaping?",
+    "labels": [
+      "security"
+    ],
+    "concern": "security",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Explain how public-key signatures work.",
+    "labels": [],
+    "concern": "security",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Write a tutorial example that hashes a password.",
+    "labels": [],
+    "concern": "security",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "What fields are normally stored in a session token?",
+    "labels": [],
+    "concern": "security",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Show how to generate a random nonce.",
+    "labels": [],
+    "concern": "security",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Explain the difference between authentication and authorization.",
+    "labels": [],
+    "concern": "security",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Create an example TLS client for a local demo.",
+    "labels": [],
+    "concern": "security",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "What does this permission check do?",
+    "labels": [],
+    "concern": "security",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Describe the claims inside this JWT.",
+    "labels": [],
+    "concern": "security",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Walk through the key rotation sequence.",
+    "labels": [],
+    "concern": "security",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Generate a certificate signing request.",
+    "labels": [],
+    "concern": "security",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Where is the redirect target read from?",
+    "labels": [],
+    "concern": "security",
+    "slice": "minimal_pair",
+    "pair_id": "security_redirect_1"
+  },
+  {
+    "text": "Can the redirect target send users to an attacker-controlled site?",
+    "labels": [
+      "security"
+    ],
+    "concern": "security",
+    "slice": "minimal_pair",
+    "pair_id": "security_redirect_1"
+  },
+  {
+    "text": "Explain how the session cookie is created.",
+    "labels": [],
+    "concern": "security",
+    "slice": "minimal_pair",
+    "pair_id": "security_cookie_2"
+  },
+  {
+    "text": "Can client-side code read this session cookie and steal it?",
+    "labels": [
+      "security"
+    ],
+    "concern": "security",
+    "slice": "minimal_pair",
+    "pair_id": "security_cookie_2"
+  },
+  {
+    "text": "What does the file path contain?",
+    "labels": [],
+    "concern": "security",
+    "slice": "minimal_pair",
+    "pair_id": "security_path_3"
+  },
+  {
+    "text": "Can the supplied file path escape the intended directory?",
+    "labels": [
+      "security"
+    ],
+    "concern": "security",
+    "slice": "minimal_pair",
+    "pair_id": "security_path_3"
+  },
+  {
+    "text": "Describe how user roles are loaded.",
+    "labels": [],
+    "concern": "security",
+    "slice": "minimal_pair",
+    "pair_id": "security_role_4"
+  },
+  {
+    "text": "Can a user assign themselves a more privileged role?",
+    "labels": [
+      "security"
+    ],
+    "concern": "security",
+    "slice": "minimal_pair",
+    "pair_id": "security_role_4"
+  },
+  {
+    "text": "Explain the password reset response.",
+    "labels": [],
+    "concern": "security",
+    "slice": "minimal_pair",
+    "pair_id": "security_reset_5"
+  },
+  {
+    "text": "Does the password reset response disclose whether an account exists?",
+    "labels": [
+      "security"
+    ],
+    "concern": "security",
+    "slice": "minimal_pair",
+    "pair_id": "security_reset_5"
+  },
+  {
+    "text": "Can concurrent password resets both succeed and leave an older token valid?",
+    "labels": [
+      "security",
+      "concurrency",
+      "correctness"
+    ],
+    "concern": "security",
+    "slice": "mixed_positive"
+  },
+  {
+    "text": "Could stricter authorization checks make the endpoint too slow under load?",
+    "labels": [
+      "security",
+      "performance"
+    ],
+    "concern": "security",
+    "slice": "mixed_positive"
+  },
+  {
+    "text": "Can a failed key rotation expose secrets and prevent the service from recovering?",
+    "labels": [
+      "security",
+      "reliability"
+    ],
+    "concern": "security",
+    "slice": "mixed_positive"
+  },
+  {
+    "text": "Are policy checks secure without being duplicated across every controller?",
+    "labels": [
+      "security",
+      "maintainability"
+    ],
+    "concern": "security",
+    "slice": "mixed_positive"
+  },
+  {
+    "text": "Can malformed credentials bypass validation and produce the wrong account identity?",
+    "labels": [
+      "security",
+      "correctness"
+    ],
+    "concern": "security",
+    "slice": "mixed_positive"
+  },
+  {
+    "text": "Could a race in permission caching briefly grant access to the wrong tenant?",
+    "labels": [
+      "security",
+      "concurrency"
+    ],
+    "concern": "security",
+    "slice": "mixed_positive"
+  },
+  {
+    "text": "Why does processing twice as many rows take nearly four times as long?",
+    "labels": [
+      "performance"
+    ],
+    "concern": "performance",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Can we avoid decoding the same payload for every validation rule?",
+    "labels": [
+      "performance"
+    ],
+    "concern": "performance",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Why does memory keep growing after each completed batch?",
+    "labels": [
+      "performance"
+    ],
+    "concern": "performance",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Could this lookup be moved outside the inner loop?",
+    "labels": [
+      "performance"
+    ],
+    "concern": "performance",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Can the report stream rows instead of retaining them all?",
+    "labels": [
+      "performance"
+    ],
+    "concern": "performance",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Why are identical repository calls repeated for every item?",
+    "labels": [
+      "performance"
+    ],
+    "concern": "performance",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Can this response begin before the full export is generated?",
+    "labels": [
+      "performance"
+    ],
+    "concern": "performance",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Does rebuilding this index on every request dominate the runtime?",
+    "labels": [
+      "performance"
+    ],
+    "concern": "performance",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Could batching these writes reduce network round trips?",
+    "labels": [
+      "performance"
+    ],
+    "concern": "performance",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Why does this worker spend most of its time allocating temporary lists?",
+    "labels": [
+      "performance"
+    ],
+    "concern": "performance",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Explain what big-O notation means.",
+    "labels": [],
+    "concern": "performance",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Write a benchmark that records elapsed time.",
+    "labels": [],
+    "concern": "performance",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "What does this cache store?",
+    "labels": [],
+    "concern": "performance",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Show an example of processing records in batches.",
+    "labels": [],
+    "concern": "performance",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Explain the current pagination limit.",
+    "labels": [],
+    "concern": "performance",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Create a load-test configuration.",
+    "labels": [],
+    "concern": "performance",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "What is the difference between latency and throughput?",
+    "labels": [],
+    "concern": "performance",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Describe how the memory pool works.",
+    "labels": [],
+    "concern": "performance",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Walk through the vectorized implementation.",
+    "labels": [],
+    "concern": "performance",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Generate sample data for a stress test.",
+    "labels": [],
+    "concern": "performance",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "How many queries does this request make?",
+    "labels": [],
+    "concern": "performance",
+    "slice": "minimal_pair",
+    "pair_id": "performance_queries_1"
+  },
+  {
+    "text": "Can the request avoid making one query per row?",
+    "labels": [
+      "performance"
+    ],
+    "concern": "performance",
+    "slice": "minimal_pair",
+    "pair_id": "performance_queries_1"
+  },
+  {
+    "text": "Explain why this list is copied.",
+    "labels": [],
+    "concern": "performance",
+    "slice": "minimal_pair",
+    "pair_id": "performance_copy_2"
+  },
+  {
+    "text": "Can we avoid copying this large list on every iteration?",
+    "labels": [
+      "performance"
+    ],
+    "concern": "performance",
+    "slice": "minimal_pair",
+    "pair_id": "performance_copy_2"
+  },
+  {
+    "text": "Describe when this cache is refreshed.",
+    "labels": [],
+    "concern": "performance",
+    "slice": "minimal_pair",
+    "pair_id": "performance_cache_3"
+  },
+  {
+    "text": "Can refreshing the entire cache on every read be avoided?",
+    "labels": [
+      "performance"
+    ],
+    "concern": "performance",
+    "slice": "minimal_pair",
+    "pair_id": "performance_cache_3"
+  },
+  {
+    "text": "What does this nested loop compute?",
+    "labels": [],
+    "concern": "performance",
+    "slice": "minimal_pair",
+    "pair_id": "performance_loop_4"
+  },
+  {
+    "text": "Can the nested loop be replaced with a single indexed pass?",
+    "labels": [
+      "performance"
+    ],
+    "concern": "performance",
+    "slice": "minimal_pair",
+    "pair_id": "performance_loop_4"
+  },
+  {
+    "text": "Explain how this file is read.",
+    "labels": [],
+    "concern": "performance",
+    "slice": "minimal_pair",
+    "pair_id": "performance_file_5"
+  },
+  {
+    "text": "Can the file be processed incrementally instead of loaded at once?",
+    "labels": [
+      "performance"
+    ],
+    "concern": "performance",
+    "slice": "minimal_pair",
+    "pair_id": "performance_file_5"
+  },
+  {
+    "text": "Can the faster implementation preserve exact numerical results?",
+    "labels": [
+      "performance",
+      "correctness"
+    ],
+    "concern": "performance",
+    "slice": "mixed_positive"
+  },
+  {
+    "text": "Could lock contention make this safe worker pool too slow?",
+    "labels": [
+      "performance",
+      "concurrency"
+    ],
+    "concern": "performance",
+    "slice": "mixed_positive"
+  },
+  {
+    "text": "Can we reduce retry latency without weakening recovery guarantees?",
+    "labels": [
+      "performance",
+      "reliability"
+    ],
+    "concern": "performance",
+    "slice": "mixed_positive"
+  },
+  {
+    "text": "Can this optimization remain understandable enough to maintain?",
+    "labels": [
+      "performance",
+      "maintainability"
+    ],
+    "concern": "performance",
+    "slice": "mixed_positive"
+  },
+  {
+    "text": "Can rate limiting remain effective without exhausting CPU under attack?",
+    "labels": [
+      "performance",
+      "security"
+    ],
+    "concern": "performance",
+    "slice": "mixed_positive"
+  },
+  {
+    "text": "Could batching concurrent updates improve speed without losing writes?",
+    "labels": [
+      "performance",
+      "concurrency",
+      "correctness"
+    ],
+    "concern": "performance",
+    "slice": "mixed_positive"
+  },
+  {
+    "text": "What happens to accepted messages if the process dies before acknowledgement?",
+    "labels": [
+      "reliability"
+    ],
+    "concern": "reliability",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Can the job resume after the machine restarts halfway through a batch?",
+    "labels": [
+      "reliability"
+    ],
+    "concern": "reliability",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Will retrying this request create duplicate external side effects?",
+    "labels": [
+      "reliability"
+    ],
+    "concern": "reliability",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Could one unavailable dependency take down otherwise healthy endpoints?",
+    "labels": [
+      "reliability"
+    ],
+    "concern": "reliability",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Is partially written output visible after an abrupt shutdown?",
+    "labels": [
+      "reliability"
+    ],
+    "concern": "reliability",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Can poison messages block every later item in the queue?",
+    "labels": [
+      "reliability"
+    ],
+    "concern": "reliability",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Does the service recover when the lease expires during processing?",
+    "labels": [
+      "reliability"
+    ],
+    "concern": "reliability",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Can a temporary timeout leave the local and remote states inconsistent?",
+    "labels": [
+      "reliability"
+    ],
+    "concern": "reliability",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "What prevents an endless retry loop after a permanent failure?",
+    "labels": [
+      "reliability"
+    ],
+    "concern": "reliability",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Can the application start safely when its optional cache is unavailable?",
+    "labels": [
+      "reliability"
+    ],
+    "concern": "reliability",
+    "slice": "implicit_positive"
+  },
+  {
+    "text": "Explain what exponential backoff is.",
+    "labels": [],
+    "concern": "reliability",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Show an example retry decorator.",
+    "labels": [],
+    "concern": "reliability",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "What does the timeout parameter control?",
+    "labels": [],
+    "concern": "reliability",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Describe the health-check response.",
+    "labels": [],
+    "concern": "reliability",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Create a fallback value for this tutorial.",
+    "labels": [],
+    "concern": "reliability",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Explain how the dead-letter queue is configured.",
+    "labels": [],
+    "concern": "reliability",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Generate a circuit-breaker example.",
+    "labels": [],
+    "concern": "reliability",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "What states can this job have?",
+    "labels": [],
+    "concern": "reliability",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Walk through the shutdown hook.",
+    "labels": [],
+    "concern": "reliability",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "Describe how checkpoints are stored.",
+    "labels": [],
+    "concern": "reliability",
+    "slice": "domain_only_negative"
+  },
+  {
+    "text": "When is the message acknowledged?",
+    "labels": [],
+    "concern": "reliability",
+    "slice": "minimal_pair",
+    "pair_id": "reliability_ack_1"
+  },
+  {
+    "text": "Can the message be lost if the process dies before acknowledgement?",
+    "labels": [
+      "reliability"
+    ],
+    "concern": "reliability",
+    "slice": "minimal_pair",
+    "pair_id": "reliability_ack_1"
+  },
+  {
+    "text": "Explain the retry loop.",
+    "labels": [],
+    "concern": "reliability",
+    "slice": "minimal_pair",
+    "pair_id": "reliability_retry_2"
+  },
+  {
+    "text": "Can the retry loop repeat a non-idempotent operation?",
+    "labels": [
+      "reliability"
+    ],
+    "concern": "reliability",
+    "slice": "minimal_pair",
+    "pair_id": "reliability_retry_2"
+  },
+  {
+    "text": "Where is the checkpoint written?",
+    "labels": [],
+    "concern": "reliability",
+    "slice": "minimal_pair",
+    "pair_id": "reliability_checkpoint_3"
+  },
+  {
+    "text": "Can a crash leave the checkpoint ahead of the committed output?",
+    "labels": [
+      "reliability"
+    ],
+    "concern": "reliability",
+    "slice": "minimal_pair",
+    "pair_id": "reliability_checkpoint_3"
+  },
+  {
+    "text": "What does the fallback return?",
+    "labels": [],
+    "concern": "reliability",
+    "slice": "minimal_pair",
+    "pair_id": "reliability_fallback_4"
+  },
+  {
+    "text": "Can the fallback keep returning stale data after recovery?",
+    "labels": [
+      "reliability"
+    ],
+    "concern": "reliability",
+    "slice": "minimal_pair",
+    "pair_id": "reliability_fallback_4"
+  },
+  {
+    "text": "Describe the shutdown sequence.",
+    "labels": [],
+    "concern": "reliability",
+    "slice": "minimal_pair",
+    "pair_id": "reliability_shutdown_5"
+  },
+  {
+    "text": "Can shutdown interrupt a write and leave corrupted state?",
+    "labels": [
+      "reliability"
+    ],
+    "concern": "reliability",
+    "slice": "minimal_pair",
+    "pair_id": "reliability_shutdown_5"
+  },
+  {
+    "text": "Can concurrent retries duplicate the operation and prevent clean recovery?",
+    "labels": [
+      "reliability",
+      "concurrency",
+      "correctness"
+    ],
+    "concern": "reliability",
+    "slice": "mixed_positive"
+  },
+  {
+    "text": "Could recovery expose secrets from a partially rotated credential?",
+    "labels": [
+      "reliability",
+      "security"
+    ],
+    "concern": "reliability",
+    "slice": "mixed_positive"
+  },
+  {
+    "text": "Can resilience checks remain fast enough during an outage?",
+    "labels": [
+      "reliability",
+      "performance"
+    ],
+    "concern": "reliability",
+    "slice": "mixed_positive"
+  },
+  {
+    "text": "Is the recovery design dependable without being impossible to maintain?",
+    "labels": [
+      "reliability",
+      "maintainability"
+    ],
+    "concern": "reliability",
+    "slice": "mixed_positive"
+  },
+  {
+    "text": "Can partial failure leave a durable but incorrect account balance?",
+    "labels": [
+      "reliability",
+      "correctness"
+    ],
+    "concern": "reliability",
+    "slice": "mixed_positive"
+  },
+  {
+    "text": "Could a deadlock stop health recovery while requests continue timing out?",
+    "labels": [
+      "reliability",
+      "concurrency"
+    ],
+    "concern": "reliability",
+    "slice": "mixed_positive"
+  },
+  {
+    "text": "Can you walk me through why OAuth2Token becomes oauth2_token today? I am not asking you to change it yet.",
+    "labels": [
+      "correctness"
+    ],
+    "source": "handwritten_boundary_2026_06_16"
+  },
+  {
+    "text": "Could you document the acronym and digit-boundary outputs before we adopt this for API aliases?",
+    "labels": [
+      "correctness"
+    ],
+    "source": "handwritten_boundary_2026_06_16"
+  },
+  {
+    "text": "Explain the retry loop without judging whether it is robust.",
+    "labels": [],
+    "source": "handwritten_boundary_2026_06_16"
+  },
+  {
+    "text": "The retry loop can repeat a non-idempotent payment after a timeout. Check that failure behavior.",
+    "labels": [
+      "correctness",
+      "reliability"
+    ],
+    "source": "handwritten_boundary_2026_06_16"
+  },
+  {
+    "text": "This runs for every schema field. Reduce the regex passes without changing acronym, digit, or kebab-case results.",
+    "labels": [
+      "performance",
+      "correctness"
+    ],
+    "source": "handwritten_boundary_2026_06_16"
+  },
+  {
+    "text": "Separate the regex steps into named helpers so future boundary rules are easier to maintain, but keep outputs unchanged.",
+    "labels": [
+      "maintainability",
+      "correctness"
+    ],
+    "source": "handwritten_boundary_2026_06_16"
+  },
+  {
+    "text": "Could this compressed response exceed the decompressed-size limit before the client raises?",
+    "labels": [
+      "security",
+      "correctness",
+      "reliability"
+    ],
+    "source": "handwritten_boundary_2026_06_16"
+  },
+  {
+    "text": "The string contains the word token, but this helper only formats display labels. Explain the output.",
+    "labels": [],
+    "source": "handwritten_boundary_2026_06_16"
+  },
+  {
+    "text": "Does this token parser accept an unsigned JWT when the algorithm header is missing?",
+    "labels": [
+      "security",
+      "correctness"
+    ],
+    "source": "handwritten_boundary_2026_06_16"
+  },
+  {
+    "text": "This async function has no await. Explain why the API is still async.",
+    "labels": [],
+    "source": "handwritten_boundary_2026_06_16"
+  },
+  {
+    "text": "Can cancellation between wrapping the two pipe descriptors leak the write end?",
+    "labels": [
+      "concurrency",
+      "reliability"
+    ],
+    "source": "handwritten_boundary_2026_06_16"
+  },
+  {
+    "text": "Two workers can refresh the shared cache at the same time and the slower one overwrites the newer value.",
+    "labels": [
+      "concurrency",
+      "correctness"
+    ],
+    "source": "handwritten_boundary_2026_06_16"
+  },
+  {
+    "text": "The service occasionally starts with no logging sinks after an invalid handler is submitted.",
+    "labels": [
+      "reliability",
+      "correctness"
+    ],
+    "source": "handwritten_boundary_2026_06_16"
+  },
+  {
+    "text": "What handlers are installed after validation fails halfway through?",
+    "labels": [
+      "correctness"
+    ],
+    "source": "handwritten_boundary_2026_06_16"
+  },
+  {
+    "text": "Review this reload path for transactional behavior and partial-failure risk.",
+    "labels": [
+      "reliability",
+      "correctness"
+    ],
+    "source": "handwritten_boundary_2026_06_16"
+  },
+  {
+    "text": "Move the duplicated decompression setup into a fixture so new encoding cases are easy to add.",
+    "labels": [
+      "maintainability"
+    ],
+    "source": "handwritten_boundary_2026_06_16"
+  },
+  {
+    "text": "Add a regression test for the host-specific ISA fallback that failed in packaging.",
+    "labels": [
+      "correctness",
+      "reliability"
+    ],
+    "source": "handwritten_boundary_2026_06_16"
+  },
+  {
+    "text": "Add a simple example for this helper.",
+    "labels": [],
+    "source": "handwritten_boundary_2026_06_16"
+  },
+  {
+    "text": "The assertion can pass when both filtered branches are present. Tighten the test so that false positive is impossible.",
+    "labels": [
+      "correctness",
+      "maintainability"
+    ],
+    "source": "handwritten_boundary_2026_06_16"
+  },
+  {
+    "text": "The setup calls sysconfig.get_platform for every parametrized case. Cache that value while preserving per-platform skip behavior.",
+    "labels": [
+      "performance",
+      "correctness"
+    ],
+    "source": "handwritten_boundary_2026_06_16"
+  },
+  {
+    "text": "Can the mmap parser read past the mapped region when the length prefix is corrupt?",
+    "labels": [
+      "correctness",
+      "security",
+      "reliability"
+    ],
+    "source": "handwritten_boundary_2026_06_16"
+  },
+  {
+    "text": "The encryption helper name appears here, but this change only renames local variables for readability.",
+    "labels": [
+      "maintainability"
+    ],
+    "source": "handwritten_boundary_2026_06_16"
+  },
+  {
+    "text": "Can this health check keep returning stale success after the dependency recovers?",
+    "labels": [
+      "reliability",
+      "correctness"
+    ],
+    "source": "handwritten_boundary_2026_06_16"
+  },
+  {
+    "text": "Avoid rebuilding the parsed schema for every row while keeping emitted columns and ordering identical.",
+    "labels": [
+      "performance",
+      "correctness"
+    ],
+    "source": "handwritten_boundary_2026_06_16"
+  },
+  {
+    "text": "Why is the acronym pass applied before the lowercase-to-uppercase pass? Walk through the current output only.",
+    "labels": [],
+    "source": "handwritten_boundary_2026_06_16"
+  },
+  {
+    "text": "Can we refactor the converter into named boundary rules? The current outputs are accepted; the problem is readability.",
+    "labels": [
+      "maintainability"
+    ],
+    "source": "handwritten_boundary_2026_06_16"
+  },
+  {
+    "text": "Add coverage for empty strings, punctuation, digits, and non-ASCII uppercase characters.",
+    "labels": [
+      "correctness"
+    ],
+    "source": "handwritten_boundary_2026_06_16"
+  },
+  {
+    "text": "Add tests that make the intended GCD behavior explicit for zero, negative, and equal operands.",
+    "labels": [
+      "correctness"
+    ],
+    "source": "handwritten_boundary_2026_06_16"
+  },
+  {
+    "text": "Explain why the first reachable predecessor is sufficient; do not change the algorithm.",
+    "labels": [],
+    "source": "handwritten_boundary_2026_06_16"
+  },
+  {
+    "text": "Document the minimality argument for the predecessor loop so future readers do not rewrite it accidentally.",
+    "labels": [
+      "maintainability"
+    ],
+    "source": "handwritten_boundary_2026_06_16"
+  },
+  {
+    "text": "This helper is called repeatedly in the stress suite. Avoid unnecessary descriptor bookkeeping while preserving ownership rules.",
+    "labels": [
+      "performance",
+      "reliability"
+    ],
+    "source": "handwritten_boundary_2026_06_16"
+  },
+  {
+    "text": "The test allocates a large payload only to cross a chunk boundary. Make it cheaper without weakening the assertion.",
+    "labels": [
+      "performance",
+      "correctness"
+    ],
+    "source": "handwritten_boundary_2026_06_16"
+  },
+  {
+    "text": "Confirm whether locale or platform can influence the command key; Linux and Windows workers must agree.",
+    "labels": [
+      "reliability"
+    ],
+    "source": "handwritten_boundary_2026_06_16"
+  },
+  {
+    "text": "A lightweight integrity field uses this value. Check whether Unicode lookalikes can alter verification.",
+    "labels": [
+      "security",
+      "reliability"
+    ],
+    "source": "handwritten_boundary_2026_06_16"
+  },
+  {
+    "text": "Refactor configure into preparation and application phases so validation is easier to follow, without changing the returned sink list.",
+    "labels": [
+      "maintainability"
+    ],
+    "source": "handwritten_boundary_2026_06_16"
+  },
+  {
+    "text": "If validation fails halfway through configure, can the shared logging state be left partially updated?",
+    "labels": [
+      "correctness",
+      "reliability"
+    ],
+    "source": "handwritten_boundary_2026_06_16"
+  }
+]

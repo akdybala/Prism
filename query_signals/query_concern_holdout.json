@@ -1,0 +1,563 @@
+[
+  {
+    "text": "Could hostile input compromise the certificate rotation service?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Could hostile input compromise the work-stealing scheduler?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Could hostile input compromise the streaming parquet converter?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Could hostile input compromise the shared-memory buffer?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Could hostile input compromise the GraphQL resolver?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Could hostile input compromise the checkpoint manager?",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Audit secret handling and privilege checks in the certificate rotation service.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Audit secret handling and privilege checks in the work-stealing scheduler.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Audit secret handling and privilege checks in the streaming parquet converter.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Audit secret handling and privilege checks in the shared-memory buffer.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Audit secret handling and privilege checks in the GraphQL resolver.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Audit secret handling and privilege checks in the checkpoint manager.",
+    "labels": [
+      "security"
+    ]
+  },
+  {
+    "text": "Could interleaved execution break the certificate rotation service?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Could interleaved execution break the work-stealing scheduler?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Could interleaved execution break the streaming parquet converter?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Could interleaved execution break the shared-memory buffer?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Could interleaved execution break the GraphQL resolver?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Could interleaved execution break the checkpoint manager?",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Audit coordination between simultaneous workers in the certificate rotation service.",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Audit coordination between simultaneous workers in the work-stealing scheduler.",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Audit coordination between simultaneous workers in the streaming parquet converter.",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Audit coordination between simultaneous workers in the shared-memory buffer.",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Audit coordination between simultaneous workers in the GraphQL resolver.",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Audit coordination between simultaneous workers in the checkpoint manager.",
+    "labels": [
+      "concurrency"
+    ]
+  },
+  {
+    "text": "Does the certificate rotation service produce valid results across boundary conditions?",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Does the work-stealing scheduler produce valid results across boundary conditions?",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Does the streaming parquet converter produce valid results across boundary conditions?",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Does the shared-memory buffer produce valid results across boundary conditions?",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Does the GraphQL resolver produce valid results across boundary conditions?",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Does the checkpoint manager produce valid results across boundary conditions?",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Audit the certificate rotation service for behavioral defects.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Audit the work-stealing scheduler for behavioral defects.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Audit the streaming parquet converter for behavioral defects.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Audit the shared-memory buffer for behavioral defects.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Audit the GraphQL resolver for behavioral defects.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Audit the checkpoint manager for behavioral defects.",
+    "labels": [
+      "correctness"
+    ]
+  },
+  {
+    "text": "Could the certificate rotation service handle ten times the current load efficiently?",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Could the work-stealing scheduler handle ten times the current load efficiently?",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Could the streaming parquet converter handle ten times the current load efficiently?",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Could the shared-memory buffer handle ten times the current load efficiently?",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Could the GraphQL resolver handle ten times the current load efficiently?",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Could the checkpoint manager handle ten times the current load efficiently?",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Audit resource consumption and response time in the certificate rotation service.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Audit resource consumption and response time in the work-stealing scheduler.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Audit resource consumption and response time in the streaming parquet converter.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Audit resource consumption and response time in the shared-memory buffer.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Audit resource consumption and response time in the GraphQL resolver.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Audit resource consumption and response time in the checkpoint manager.",
+    "labels": [
+      "performance"
+    ]
+  },
+  {
+    "text": "Will the certificate rotation service recover cleanly after an abrupt interruption?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Will the work-stealing scheduler recover cleanly after an abrupt interruption?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Will the streaming parquet converter recover cleanly after an abrupt interruption?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Will the shared-memory buffer recover cleanly after an abrupt interruption?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Will the GraphQL resolver recover cleanly after an abrupt interruption?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Will the checkpoint manager recover cleanly after an abrupt interruption?",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Audit failure containment and recovery in the certificate rotation service.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Audit failure containment and recovery in the work-stealing scheduler.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Audit failure containment and recovery in the streaming parquet converter.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Audit failure containment and recovery in the shared-memory buffer.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Audit failure containment and recovery in the GraphQL resolver.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Audit failure containment and recovery in the checkpoint manager.",
+    "labels": [
+      "reliability"
+    ]
+  },
+  {
+    "text": "Could another engineer safely evolve the certificate rotation service?",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Could another engineer safely evolve the work-stealing scheduler?",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Could another engineer safely evolve the streaming parquet converter?",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Could another engineer safely evolve the shared-memory buffer?",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Could another engineer safely evolve the GraphQL resolver?",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Could another engineer safely evolve the checkpoint manager?",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Audit the organization and long-term clarity of the certificate rotation service.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Audit the organization and long-term clarity of the work-stealing scheduler.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Audit the organization and long-term clarity of the streaming parquet converter.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Audit the organization and long-term clarity of the shared-memory buffer.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Audit the organization and long-term clarity of the GraphQL resolver.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Audit the organization and long-term clarity of the checkpoint manager.",
+    "labels": [
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Could hostile input compromise the certificate rotation service, and audit coordination between simultaneous workers in the certificate rotation service.",
+    "labels": [
+      "concurrency",
+      "security"
+    ]
+  },
+  {
+    "text": "Could hostile input compromise the work-stealing scheduler, and audit the work-stealing scheduler for behavioral defects.",
+    "labels": [
+      "correctness",
+      "security"
+    ]
+  },
+  {
+    "text": "Could hostile input compromise the streaming parquet converter, and audit resource consumption and response time in the streaming parquet converter.",
+    "labels": [
+      "performance",
+      "security"
+    ]
+  },
+  {
+    "text": "Could hostile input compromise the shared-memory buffer, and audit failure containment and recovery in the shared-memory buffer.",
+    "labels": [
+      "reliability",
+      "security"
+    ]
+  },
+  {
+    "text": "Could hostile input compromise the GraphQL resolver, and audit the organization and long-term clarity of the GraphQL resolver.",
+    "labels": [
+      "maintainability",
+      "security"
+    ]
+  },
+  {
+    "text": "Could interleaved execution break the checkpoint manager, and audit the checkpoint manager for behavioral defects.",
+    "labels": [
+      "concurrency",
+      "correctness"
+    ]
+  },
+  {
+    "text": "Could interleaved execution break the certificate rotation service, and audit resource consumption and response time in the certificate rotation service.",
+    "labels": [
+      "concurrency",
+      "performance"
+    ]
+  },
+  {
+    "text": "Could interleaved execution break the work-stealing scheduler, and audit failure containment and recovery in the work-stealing scheduler.",
+    "labels": [
+      "concurrency",
+      "reliability"
+    ]
+  },
+  {
+    "text": "Could interleaved execution break the streaming parquet converter, and audit the organization and long-term clarity of the streaming parquet converter.",
+    "labels": [
+      "concurrency",
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Does the shared-memory buffer produce valid results across boundary conditions, and audit resource consumption and response time in the shared-memory buffer.",
+    "labels": [
+      "correctness",
+      "performance"
+    ]
+  },
+  {
+    "text": "Does the GraphQL resolver produce valid results across boundary conditions, and audit failure containment and recovery in the GraphQL resolver.",
+    "labels": [
+      "correctness",
+      "reliability"
+    ]
+  },
+  {
+    "text": "Does the checkpoint manager produce valid results across boundary conditions, and audit the organization and long-term clarity of the checkpoint manager.",
+    "labels": [
+      "correctness",
+      "maintainability"
+    ]
+  },
+  {
+    "text": "Could the certificate rotation service handle ten times the current load efficiently, and audit failure containment and recovery in the certificate rotation service.",
+    "labels": [
+      "performance",
+      "reliability"
+    ]
+  },
+  {
+    "text": "Could the work-stealing scheduler handle ten times the current load efficiently, and audit the organization and long-term clarity of the work-stealing scheduler.",
+    "labels": [
+      "maintainability",
+      "performance"
+    ]
+  },
+  {
+    "text": "Will the streaming parquet converter recover cleanly after an abrupt interruption, and audit the organization and long-term clarity of the streaming parquet converter.",
+    "labels": [
+      "maintainability",
+      "reliability"
+    ]
+  },
+  {
+    "text": "Teach me how semaphores work.",
+    "labels": []
+  },
+  {
+    "text": "Generate an encryption helper for a tutorial.",
+    "labels": []
+  },
+  {
+    "text": "Explain the existing recovery mechanism.",
+    "labels": []
+  },
+  {
+    "text": "What does this validation function return?",
+    "labels": []
+  },
+  {
+    "text": "Create a benchmark script.",
+    "labels": []
+  },
+  {
+    "text": "Describe the package layout.",
+    "labels": []
+  }
+]

@@ -1,0 +1,13 @@
+.code_signals_cache/
+.code_query_repo_cache/
+.codex-cli.exe
+.benchmark_venv/
+query_signals/cache/
+__pycache__/
+*.py[cod]
+*.log
+signal_ui.*.log
+signal_ui_v7.*.log
+router_pair_data/**/raw_batches/
+router_pair_data/**/raw_adjudication_batches/
+router_pair_data/**/generation_failures_*.json

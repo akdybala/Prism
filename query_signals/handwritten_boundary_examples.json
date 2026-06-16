@@ -1,0 +1,362 @@
+{
+  "query_type_examples": {
+    "explain": [
+      "Can you walk me through why this alias converter produces oauth2_token today? I am not asking you to change it yet.",
+      "Before we touch the code, explain where the size limit is enforced when the compressed response is read.",
+      "What does this retry wrapper do after the third failure? Please describe the current behavior only.",
+      "Why does this async helper return a stream object even though this function body has no await?",
+      "Can you explain what state the logger config is left in if validation raises halfway through?"
+    ],
+    "debug": [
+      "Our import maps OAuth2Token to oauth2_token, but the partner schema expects oauth_2_token. Find whether the converter is causing the mismatch.",
+      "The client sometimes reads past the decompressed byte limit before raising. Diagnose where the guard is being bypassed.",
+      "After a cancelled pipe test, the process occasionally hits the open-file limit. Track down whether a descriptor is leaked.",
+      "This regression test passes even when both filtered branches appear in the output. Find the assertion weakness.",
+      "A bad logging handler leaves the service with no active sinks after reload. Figure out which update happens too early."
+    ],
+    "review": [
+      "Review the alias conversion behavior around acronym and digit boundaries and tell me what compatibility risks you see.",
+      "Please review the decompression-limit test for whether it proves the security boundary, without adding new assertions yet.",
+      "Check the pipe wrapper for ownership and cleanup risks on partial construction failure.",
+      "Review whether this logger reload path is transactional enough for a running service.",
+      "Assess whether the new regression test covers the host-specific ISA behavior or leaves a blind spot."
+    ],
+    "optimize": [
+      "This conversion runs for every schema field. Reduce the repeated regex work without changing acronym, digit, or kebab-case outputs.",
+      "The startup path normalizes the same platform suffix repeatedly. Cut that setup overhead while preserving skip behavior.",
+      "Avoid reopening the same config file for every handler while keeping the reload order and failure behavior unchanged.",
+      "Can we avoid rebuilding this parsed pattern for every row while keeping the emitted records byte-for-byte identical?",
+      "This test fixture spends most of its time recreating the same compressed payload. Reuse the expensive setup without changing assertions."
+    ],
+    "generate": [
+      "Add a regression test for OAuth2Token so the expected oauth_2_token boundary is documented.",
+      "Write a test that proves the decompressed-size limit raises while streaming the response body.",
+      "Add coverage for cancellation between wrapping the read and write pipe descriptors.",
+      "Create a fixture that exercises logger reload with one invalid handler and one existing valid sink.",
+      "Add an example showing how a host-specific ISA factor is selected when the environment name has no ISA."
+    ],
+    "refactor": [
+      "Separate acronym-boundary handling from digit-boundary handling so the converter is easier to read, but keep every output the same.",
+      "Move the decompression-limit setup into a reusable fixture without changing the tested behavior.",
+      "Split pipe creation and stream wrapping into named helpers while preserving descriptor ownership semantics.",
+      "Reorganize the logger reload code so validation and mutation are easier to follow, without changing when errors are raised.",
+      "Tighten the test structure so the host-dependent expectation is readable, while preserving the same scenario and assertions."
+    ]
+  },
+  "query_domain_examples": {
+    "algorithms": [
+      "Does this interval merge still work if the incoming ranges are unsorted, or do we need a different ordering invariant?",
+      "Can the graph traversal avoid revisiting equivalent states without depending on any database index?",
+      "What invariant makes this two-pointer partition correct when duplicate keys appear?",
+      "Can this recursive matcher be converted to dynamic programming without changing accepted strings?"
+    ],
+    "machine_learning": [
+      "The classifier precision dropped after retraining even though the feature pipeline is unchanged. What should I inspect first?",
+      "Should this embedding router use a higher decision threshold for ambiguous operation labels?",
+      "Why does validation loss rise while training loss keeps improving after the new examples were added?",
+      "Can we calibrate the multilabel concern heads so reliability is not over-predicted?"
+    ],
+    "backend_api": [
+      "The HTTP client accepts the response but raises only while the body is consumed. Is that the intended API contract?",
+      "When the service reloads logging config, can one bad handler leave the live API without a usable sink?",
+      "Should this request middleware preserve the existing response headers when it rejects an oversized body?",
+      "Can two webhook deliveries observe different alias mappings during a schema reload?",
+      "An API validator returns None for malformed time strings instead of the documented error. Is the request parsing contract being violated?",
+      "A legacy caller says positional node arguments stopped working through this public entry point. Is the wrapper forwarding the API contract correctly?",
+      "Should this abstract parameter property match the neighboring curve API while preserving mandatory implementation?"
+    ],
+    "database": [
+      "Can this migration leave the old index in place if the new constraint validation fails?",
+      "Do these two transactions deadlock because they update account rows in opposite order?",
+      "Should this query use a partial index for active sessions instead of scanning archived rows?",
+      "Can the rollback path leave the cursor after the committed checkpoint?"
+    ],
+    "concurrency": [
+      "Can cancellation between acquiring the stream and registering cleanup leak the descriptor?",
+      "What happens if two workers refresh the shared token cache at the same time?",
+      "Could the slower task overwrite a newer value after both await the same network call?",
+      "Does this lock ordering allow the shutdown task to deadlock with the writer task?"
+    ],
+    "frontend": [
+      "Does this form keep the user's typed value if the validation request returns after the component rerenders?",
+      "Can the dropdown remain open with stale options after the async search response arrives?",
+      "Should this client-side route preserve focus when the error banner is inserted?",
+      "Why does the checkbox state reset after hydration even though the server value matches?"
+    ],
+    "systems_programming": [
+      "The helper returns os.pipe endpoints as streams. Are the read and write descriptors wrapped in the right order?",
+      "Can the mmap parser read past the mapped region when the length prefix is corrupted?",
+      "Does this signal handler restore the previous disposition if registration fails halfway through?",
+      "Will this subprocess wrapper close inherited file descriptors on exec?",
+      "Can this single-file checker avoid unnecessary cache file reads without changing report states?",
+      "Does IOBasePayload.close promise to close the wrapped BytesIO or only mark the payload lifecycle as consumed?"
+    ],
+    "security_crypto": [
+      "Can a compressed response exceed the decompressed-size limit and become a decompression-bomb risk?",
+      "Does this token parser accept an unsigned JWT when the algorithm header is missing?",
+      "Could cache timing reveal whether a protected alias was previously generated?",
+      "Does the password reset handler rotate the old token before the new one is committed?",
+      "Could visually similar Unicode uppercase characters change the integrity string accepted by the verifier?",
+      "Should punctuation be rejected before the consonant/vowel check in this password-pronounceability helper?"
+    ],
+    "testing": [
+      "Add a regression case proving OAuth2Token does not silently map to the partner's expected oauth_2_token form.",
+      "The assertion only checks substring membership. Can the test pass when both branches are present?",
+      "Should the fixture assert that descriptors are closed after cancellation?",
+      "This CI failure is intermittent. Which assertion would make the race reproducible?",
+      "The test allocates a 2 MiB payload just to cross the chunk boundary. Can the fixture make that cheaper without weakening the assertion?",
+      "Our architecture-factor tests recompute the host platform suffix for every case. Can setup be shared while preserving skip behavior?",
+      "Add coverage for no uppercase letters, mixed ASCII case, digits, punctuation, empty strings, and non-ASCII uppercase characters.",
+      "Why does this regression test inspect the consumed flag instead of the wrapped stream's closed property?"
+    ],
+    "devops_cli": [
+      "Can the CLI leave the generated config file half-written if validation fails?",
+      "Should this deployment check fail fast when the health endpoint is missing?",
+      "Why does the packaging job choose the host ISA factor differently on macOS and Linux?",
+      "Can the command preserve the existing log file when a handler path is invalid?",
+      "Clarify which run-environment class wins when two plugins register the same id.",
+      "Can Linux and Windows workers produce different cache keys for the same command text?"
+    ],
+    "data_processing": [
+      "Can this record normalizer preserve input order while deduplicating repeated IDs?",
+      "Should the ETL step cache the parsed schema across rows without changing emitted columns?",
+      "Why does grouping null keys change the number of output records?",
+      "Can late events update an already emitted aggregation window without duplicating rows?",
+      "Explain how NaN amounts flow through the break-even calculation in the reporting pipeline.",
+      "Can the column-ordering rewrite be shared across migration checks without changing the expected order?"
+    ],
+    "general": [
+      "Can you explain whether this question is about behavior, structure, or performance before changing anything?",
+      "What extra example would clarify the intended output for this small helper?",
+      "Is this a code issue or a misunderstanding of the existing API contract?",
+      "How should I describe a minimal reproduction for this problem?"
+    ]
+  },
+  "query_concern_examples": [
+    {
+      "text": "Can you walk me through why OAuth2Token becomes oauth2_token today? I am not asking you to change it yet.",
+      "labels": [
+        "correctness"
+      ]
+    },
+    {
+      "text": "Could you document the acronym and digit-boundary outputs before we adopt this for API aliases?",
+      "labels": [
+        "correctness"
+      ]
+    },
+    {
+      "text": "Explain the retry loop without judging whether it is robust.",
+      "labels": []
+    },
+    {
+      "text": "The retry loop can repeat a non-idempotent payment after a timeout. Check that failure behavior.",
+      "labels": [
+        "correctness",
+        "reliability"
+      ]
+    },
+    {
+      "text": "This runs for every schema field. Reduce the regex passes without changing acronym, digit, or kebab-case results.",
+      "labels": [
+        "performance",
+        "correctness"
+      ]
+    },
+    {
+      "text": "Separate the regex steps into named helpers so future boundary rules are easier to maintain, but keep outputs unchanged.",
+      "labels": [
+        "maintainability",
+        "correctness"
+      ]
+    },
+    {
+      "text": "Could this compressed response exceed the decompressed-size limit before the client raises?",
+      "labels": [
+        "security",
+        "correctness",
+        "reliability"
+      ]
+    },
+    {
+      "text": "The string contains the word token, but this helper only formats display labels. Explain the output.",
+      "labels": []
+    },
+    {
+      "text": "Does this token parser accept an unsigned JWT when the algorithm header is missing?",
+      "labels": [
+        "security",
+        "correctness"
+      ]
+    },
+    {
+      "text": "This async function has no await. Explain why the API is still async.",
+      "labels": []
+    },
+    {
+      "text": "Can cancellation between wrapping the two pipe descriptors leak the write end?",
+      "labels": [
+        "concurrency",
+        "reliability"
+      ]
+    },
+    {
+      "text": "Two workers can refresh the shared cache at the same time and the slower one overwrites the newer value.",
+      "labels": [
+        "concurrency",
+        "correctness"
+      ]
+    },
+    {
+      "text": "The service occasionally starts with no logging sinks after an invalid handler is submitted.",
+      "labels": [
+        "reliability",
+        "correctness"
+      ]
+    },
+    {
+      "text": "What handlers are installed after validation fails halfway through?",
+      "labels": [
+        "correctness"
+      ]
+    },
+    {
+      "text": "Review this reload path for transactional behavior and partial-failure risk.",
+      "labels": [
+        "reliability",
+        "correctness"
+      ]
+    },
+    {
+      "text": "Move the duplicated decompression setup into a fixture so new encoding cases are easy to add.",
+      "labels": [
+        "maintainability"
+      ]
+    },
+    {
+      "text": "Add a regression test for the host-specific ISA fallback that failed in packaging.",
+      "labels": [
+        "correctness",
+        "reliability"
+      ]
+    },
+    {
+      "text": "Add a simple example for this helper.",
+      "labels": []
+    },
+    {
+      "text": "The assertion can pass when both filtered branches are present. Tighten the test so that false positive is impossible.",
+      "labels": [
+        "correctness",
+        "maintainability"
+      ]
+    },
+    {
+      "text": "The setup calls sysconfig.get_platform for every parametrized case. Cache that value while preserving per-platform skip behavior.",
+      "labels": [
+        "performance",
+        "correctness"
+      ]
+    },
+    {
+      "text": "Can the mmap parser read past the mapped region when the length prefix is corrupt?",
+      "labels": [
+        "correctness",
+        "security",
+        "reliability"
+      ]
+    },
+    {
+      "text": "The encryption helper name appears here, but this change only renames local variables for readability.",
+      "labels": [
+        "maintainability"
+      ]
+    },
+    {
+      "text": "Can this health check keep returning stale success after the dependency recovers?",
+      "labels": [
+        "reliability",
+        "correctness"
+      ]
+    },
+    {
+      "text": "Avoid rebuilding the parsed schema for every row while keeping emitted columns and ordering identical.",
+      "labels": [
+        "performance",
+        "correctness"
+      ]
+    },
+    {
+      "text": "Why is the acronym pass applied before the lowercase-to-uppercase pass? Walk through the current output only.",
+      "labels": []
+    },
+    {
+      "text": "Can we refactor the converter into named boundary rules? The current outputs are accepted; the problem is readability.",
+      "labels": [
+        "maintainability"
+      ]
+    },
+    {
+      "text": "Add coverage for empty strings, punctuation, digits, and non-ASCII uppercase characters.",
+      "labels": [
+        "correctness"
+      ]
+    },
+    {
+      "text": "Add tests that make the intended GCD behavior explicit for zero, negative, and equal operands.",
+      "labels": [
+        "correctness"
+      ]
+    },
+    {
+      "text": "Explain why the first reachable predecessor is sufficient; do not change the algorithm.",
+      "labels": []
+    },
+    {
+      "text": "Document the minimality argument for the predecessor loop so future readers do not rewrite it accidentally.",
+      "labels": [
+        "maintainability"
+      ]
+    },
+    {
+      "text": "This helper is called repeatedly in the stress suite. Avoid unnecessary descriptor bookkeeping while preserving ownership rules.",
+      "labels": [
+        "performance",
+        "reliability"
+      ]
+    },
+    {
+      "text": "The test allocates a large payload only to cross a chunk boundary. Make it cheaper without weakening the assertion.",
+      "labels": [
+        "performance",
+        "correctness"
+      ]
+    },
+    {
+      "text": "Confirm whether locale or platform can influence the command key; Linux and Windows workers must agree.",
+      "labels": [
+        "reliability"
+      ]
+    },
+    {
+      "text": "A lightweight integrity field uses this value. Check whether Unicode lookalikes can alter verification.",
+      "labels": [
+        "security",
+        "reliability"
+      ]
+    },
+    {
+      "text": "Refactor configure into preparation and application phases so validation is easier to follow, without changing the returned sink list.",
+      "labels": [
+        "maintainability"
+      ]
+    },
+    {
+      "text": "If validation fails halfway through configure, can the shared logging state be left partially updated?",
+      "labels": [
+        "correctness",
+        "reliability"
+      ]
+    }
+  ]
+}
