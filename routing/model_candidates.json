@@ -1,0 +1,58 @@
+[
+  {
+    "candidate_id": "fast_code_model",
+    "display_name": "Fast code model",
+    "quality_tier": 0.46,
+    "code_capability": 0.62,
+    "reasoning_capability": 0.40,
+    "context_window": 32768,
+    "supports_tools": false,
+    "supports_code": true,
+    "input_cost_per_million": 0.15,
+    "output_cost_per_million": 0.60,
+    "estimated_latency_ms": 450,
+    "enabled": true
+  },
+  {
+    "candidate_id": "balanced_code_model",
+    "display_name": "Balanced code model",
+    "quality_tier": 0.72,
+    "code_capability": 0.82,
+    "reasoning_capability": 0.70,
+    "context_window": 131072,
+    "supports_tools": true,
+    "supports_code": true,
+    "input_cost_per_million": 0.80,
+    "output_cost_per_million": 3.20,
+    "estimated_latency_ms": 1200,
+    "enabled": true
+  },
+  {
+    "candidate_id": "reasoning_code_model",
+    "display_name": "Reasoning code model",
+    "quality_tier": 0.94,
+    "code_capability": 0.96,
+    "reasoning_capability": 0.97,
+    "context_window": 200000,
+    "supports_tools": true,
+    "supports_code": true,
+    "input_cost_per_million": 3.00,
+    "output_cost_per_million": 12.00,
+    "estimated_latency_ms": 3200,
+    "enabled": true
+  },
+  {
+    "candidate_id": "long_context_model",
+    "display_name": "Long-context model",
+    "quality_tier": 0.80,
+    "code_capability": 0.78,
+    "reasoning_capability": 0.76,
+    "context_window": 1000000,
+    "supports_tools": true,
+    "supports_code": true,
+    "input_cost_per_million": 1.50,
+    "output_cost_per_million": 6.00,
+    "estimated_latency_ms": 2100,
+    "enabled": true
+  }
+]
