@@ -49,8 +49,3 @@ bash .devcontainer/start-ui.sh
 
 - `code_signals/`: code parsing, static analysis, and code-domain extraction.
 - `query_signals/`: query operation/domain/concern classifiers and examples.
-
-## Status
-
-This is an in-progress student ML systems project. The goal is to build a
-signal-aware model router for code-assistance tasks.
