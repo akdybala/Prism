@@ -1,0 +1,31 @@
+{
+  "name": "Prism Router",
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bookworm",
+  "postCreateCommand": "python -m pip install --upgrade pip && python -m pip install -r requirements.txt",
+  "postAttachCommand": "bash .devcontainer/start-ui.sh",
+  "forwardPorts": [
+    8000
+  ],
+  "portsAttributes": {
+    "8000": {
+      "label": "Prism Signal Inspector",
+      "onAutoForward": "openBrowserOnce"
+    }
+  },
+  "hostRequirements": {
+    "cpus": 4,
+    "memory": "8gb",
+    "storage": "16gb"
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "terminal.integrated.defaultProfile.linux": "bash"
+      },
+      "extensions": [
+        "ms-python.python"
+      ]
+    }
+  }
+}

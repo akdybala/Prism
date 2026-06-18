@@ -1,5 +1,7 @@
 # Prism
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/akdybala/Prism?quickstart=1)
+
 Prism is a proof-of-concept signal extraction system for Python code and
 natural-language developer requests.
 
@@ -18,6 +20,29 @@ LightGBM router, and local inspection UI.
 ```powershell
 python -m pip install -r requirements.txt
 python -m unittest tests.test_signals tests.test_domain tests.test_data_flow tests.test_domain_sketch tests.test_query_signals -v
+```
+
+## Try It In GitHub Codespaces
+
+Click the **Open in GitHub Codespaces** badge above, create the codespace, and
+wait for dependency installation to finish. The dev container starts the Prism
+Signal Inspector on port `8000`; Codespaces opens the forwarded web interface
+automatically.
+
+The first code or query classification request downloads the configured
+Hugging Face embedding models. This can take a few minutes. Later requests reuse
+the caches stored in the codespace.
+
+If the browser does not open automatically:
+
+1. Open the **Ports** panel in Codespaces.
+2. Find **Prism Signal Inspector** on port `8000`.
+3. Select **Open in Browser**.
+
+To restart the UI manually:
+
+```bash
+bash .devcontainer/start-ui.sh
 ```
 
 ## Core Packages
