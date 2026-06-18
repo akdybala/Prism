@@ -1,3 +1,14 @@
+---
+title: Prism Router
+emoji: 🔀
+colorFrom: indigo
+colorTo: blue
+sdk: docker
+app_port: 7860
+pinned: false
+license: mit
+---
+
 # Prism
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/akdybala/Prism?quickstart=1)
@@ -44,6 +55,14 @@ To restart the UI manually:
 ```bash
 bash .devcontainer/start-ui.sh
 ```
+
+## Host The Public Demo
+
+Prism includes a Docker configuration for deployment as a Hugging Face Space.
+The hosted container starts the Signal Inspector on port `7860`, includes the
+trained LightGBM router, and downloads embedding models lazily.
+
+See [HUGGINGFACE_SPACE.md](HUGGINGFACE_SPACE.md) for deployment instructions.
 
 ## Core Packages
 

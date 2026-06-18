@@ -1,5 +1,6 @@
 import unittest
 from unittest.mock import patch
+from urllib.parse import urlparse
 
 import signal_ui
 
@@ -63,6 +64,13 @@ class SignalUITests(unittest.TestCase):
         ensure_embeddings.return_value = True
         self.assertTrue(signal_ui.warm_code_model())
         ensure_embeddings.assert_called_once_with()
+
+    def test_health_endpoint_path_is_stable_for_container_probes(self):
+        self.assertEqual(urlparse("/api/health").path, "/api/health")
+        self.assertIn(
+            "/api/health",
+            signal_ui.SignalUIHandler.do_GET.__code__.co_consts,
+        )
 
 
 if __name__ == "__main__":
