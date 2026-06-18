@@ -1,0 +1,24 @@
+{
+  "input": "router_pair_data\\trusted_v1\\llm_grounded_pairs_trusted_v1_with_code_domains.csv",
+  "csv": "router_training_data\\trusted_v1\\router_training_trusted_v1.csv",
+  "jsonl": "router_training_data\\trusted_v1\\router_training_trusted_v1.jsonl",
+  "rows": 3120,
+  "feature_columns": 109,
+  "route_label_counts": {
+    "light": 442,
+    "medium": 2334,
+    "heavy": 344
+  },
+  "split_counts": {
+    "train": 2504,
+    "test": 264,
+    "validation": 352
+  },
+  "ambiguous_route_labels": 2296,
+  "route_labels": [
+    "light",
+    "medium",
+    "heavy"
+  ],
+  "removed_feature_columns": "feature.*.ambiguity_reason.*"
+}

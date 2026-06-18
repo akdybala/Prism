@@ -1,0 +1,7 @@
+{
+  "input": "router_pair_data\\trusted_v1\\llm_grounded_pairs_trusted_v1.csv",
+  "predictions": "router_pair_data\\audits\\trusted_v1\\classifier_predictions.csv",
+  "output": "router_pair_data\\trusted_v1\\llm_grounded_pairs_trusted_v1_with_code_domains.csv",
+  "rows": 3120,
+  "missing_predictions": []
+}

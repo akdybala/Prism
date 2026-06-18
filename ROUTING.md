@@ -25,6 +25,35 @@ The current `HeuristicQualityScorer` is a transparent cold-start baseline.
 It exists so routing can be exercised before model-outcome data is available.
 It should later be replaced by a learned scorer, preferably LightGBM.
 
+## Minimum-Capable Tier PoC
+
+The next experimental layer trains a separate LightGBM classifier that predicts
+the minimum model tier required for a `(query, code)` request:
+
+- `light`
+- `medium`
+- `heavy`
+
+This classifier is trained on the trusted-v1 LLM-grounded code-query corpus and
+the approved 109-feature signal vector. It is exposed in `signal_ui.py` for
+local inspection.
+
+```powershell
+python build_router_training_data.py
+python train_lightgbm_router.py
+python signal_ui.py
+```
+
+The current test split contains 264 examples and reports 82.20% accuracy and
+0.6840 macro F1. Heavy-tier recall remains weak at 30%, so this is a research
+artifact rather than a production routing policy.
+
+The tier classifier and `HeuristicQualityScorer` solve different problems. The
+tier classifier predicts a coarse minimum capability class from rubric labels.
+The candidate scorer estimates whether each configured model can succeed and
+then applies cost-aware selection. They should remain separate until
+candidate-outcome labels are available.
+
 ## Approved Signal Vector
 
 Feature schema `3-approved-signal-panels` contains only:

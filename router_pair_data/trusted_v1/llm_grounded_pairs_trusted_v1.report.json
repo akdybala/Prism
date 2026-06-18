@@ -1,0 +1,25 @@
+{
+  "input": "router_pair_data\\llm_combined\\llm_grounded_pairs_combined.csv",
+  "adjudications": "router_pair_data\\audits\\llm_combined\\adjudication\\adjudicated_mismatches.csv",
+  "output": "router_pair_data\\trusted_v1\\llm_grounded_pairs_trusted_v1.csv",
+  "rows": 3120,
+  "adjudicated_pairs": 394,
+  "changed_items": 229,
+  "changed_pairs": 184,
+  "skipped": [],
+  "changes_by_signal": {
+    "concern_missing": 105,
+    "query_domain": 80,
+    "concern_extra": 38,
+    "operation": 6
+  },
+  "changes_by_verdict": {
+    "classifier_right": 202,
+    "neither_right": 26,
+    "both_defensible": 1
+  },
+  "metadata_pairs": {
+    "both_defensible": 51,
+    "manual_review": 0
+  }
+}

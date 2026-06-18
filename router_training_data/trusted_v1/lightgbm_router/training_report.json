@@ -1,0 +1,454 @@
+{
+  "input": "router_training_data\\trusted_v1\\router_training_trusted_v1.csv",
+  "model_path": "router_training_data\\trusted_v1\\lightgbm_router\\lightgbm_router.joblib",
+  "feature_count": 109,
+  "params": {
+    "boosting_type": "gbdt",
+    "class_weight": "balanced",
+    "colsample_bytree": 1.0,
+    "importance_type": "split",
+    "learning_rate": 0.04,
+    "max_depth": -1,
+    "min_child_samples": 35,
+    "min_child_weight": 0.001,
+    "min_split_gain": 0.0,
+    "n_estimators": 600,
+    "n_jobs": -1,
+    "num_leaves": 15,
+    "objective": "multiclass",
+    "random_state": 42,
+    "reg_alpha": 0.1,
+    "reg_lambda": 1.0,
+    "subsample": 1.0,
+    "subsample_for_bin": 200000,
+    "subsample_freq": 0,
+    "num_class": 3,
+    "feature_fraction": 0.85,
+    "bagging_fraction": 0.85,
+    "bagging_freq": 1,
+    "verbosity": -1
+  },
+  "train": {
+    "rows": 2504,
+    "label_counts": {
+      "light": 355,
+      "medium": 1872,
+      "heavy": 277
+    },
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "weighted_f1": 1.0,
+    "confusion_matrix": {
+      "labels": [
+        "light",
+        "medium",
+        "heavy"
+      ],
+      "matrix": [
+        [
+          355,
+          0,
+          0
+        ],
+        [
+          0,
+          1872,
+          0
+        ],
+        [
+          0,
+          0,
+          277
+        ]
+      ]
+    },
+    "per_label": {
+      "light": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 355
+      },
+      "medium": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1872
+      },
+      "heavy": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 277
+      }
+    },
+    "mean_predicted_probability_for_gold": 0.9689,
+    "mean_sample_weight": 0.8668
+  },
+  "validation": {
+    "rows": 352,
+    "label_counts": {
+      "light": 52,
+      "medium": 263,
+      "heavy": 37
+    },
+    "accuracy": 0.8239,
+    "macro_f1": 0.6794,
+    "weighted_f1": 0.8172,
+    "confusion_matrix": {
+      "labels": [
+        "light",
+        "medium",
+        "heavy"
+      ],
+      "matrix": [
+        [
+          39,
+          13,
+          0
+        ],
+        [
+          7,
+          239,
+          17
+        ],
+        [
+          1,
+          24,
+          12
+        ]
+      ]
+    },
+    "per_label": {
+      "light": {
+        "precision": 0.8298,
+        "recall": 0.75,
+        "f1": 0.7879,
+        "support": 52
+      },
+      "medium": {
+        "precision": 0.8659,
+        "recall": 0.9087,
+        "f1": 0.8868,
+        "support": 263
+      },
+      "heavy": {
+        "precision": 0.4138,
+        "recall": 0.3243,
+        "f1": 0.3636,
+        "support": 37
+      }
+    },
+    "mean_predicted_probability_for_gold": 0.7799,
+    "mean_sample_weight": 0.8678
+  },
+  "test": {
+    "rows": 264,
+    "label_counts": {
+      "medium": 199,
+      "heavy": 30,
+      "light": 35
+    },
+    "accuracy": 0.822,
+    "macro_f1": 0.684,
+    "weighted_f1": 0.8148,
+    "confusion_matrix": {
+      "labels": [
+        "light",
+        "medium",
+        "heavy"
+      ],
+      "matrix": [
+        [
+          29,
+          6,
+          0
+        ],
+        [
+          6,
+          179,
+          14
+        ],
+        [
+          0,
+          21,
+          9
+        ]
+      ]
+    },
+    "per_label": {
+      "light": {
+        "precision": 0.8286,
+        "recall": 0.8286,
+        "f1": 0.8286,
+        "support": 35
+      },
+      "medium": {
+        "precision": 0.8689,
+        "recall": 0.8995,
+        "f1": 0.884,
+        "support": 199
+      },
+      "heavy": {
+        "precision": 0.3913,
+        "recall": 0.3,
+        "f1": 0.3396,
+        "support": 30
+      }
+    },
+    "mean_predicted_probability_for_gold": 0.7865,
+    "mean_sample_weight": 0.8662
+  },
+  "top_feature_importances": [
+    {
+      "feature": "feature.query.operation.scores.explain",
+      "gain": 14355.162182,
+      "split": 1063
+    },
+    {
+      "feature": "feature.code.structural.max_function_length",
+      "gain": 3048.336089,
+      "split": 628
+    },
+    {
+      "feature": "feature.query.concerns.scores.security",
+      "gain": 2270.089383,
+      "split": 855
+    },
+    {
+      "feature": "feature.query.operation.scores.generate",
+      "gain": 2214.855385,
+      "split": 933
+    },
+    {
+      "feature": "feature.query.concerns.scores.reliability",
+      "gain": 1844.240987,
+      "split": 837
+    },
+    {
+      "feature": "feature.query.operation.scores.optimize",
+      "gain": 1740.601875,
+      "split": 707
+    },
+    {
+      "feature": "feature.query.concerns.scores.performance",
+      "gain": 1650.326215,
+      "split": 912
+    },
+    {
+      "feature": "feature.query.concerns.scores.concurrency",
+      "gain": 1555.631784,
+      "split": 809
+    },
+    {
+      "feature": "feature.query.operation.scores.review",
+      "gain": 1480.510123,
+      "split": 686
+    },
+    {
+      "feature": "feature.query.operation.scores.refactor",
+      "gain": 1453.31579,
+      "split": 734
+    },
+    {
+      "feature": "feature.query.domain.scores.data_processing",
+      "gain": 1371.107134,
+      "split": 834
+    },
+    {
+      "feature": "feature.query.operation.scores.debug",
+      "gain": 1327.821504,
+      "split": 624
+    },
+    {
+      "feature": "feature.query.domain.scores.security_crypto",
+      "gain": 1326.79897,
+      "split": 783
+    },
+    {
+      "feature": "feature.query.domain.scores.general",
+      "gain": 1197.3242,
+      "split": 619
+    },
+    {
+      "feature": "feature.query.domain.scores.testing",
+      "gain": 1101.219911,
+      "split": 734
+    },
+    {
+      "feature": "feature.query.domain.scores.concurrency",
+      "gain": 1061.633786,
+      "split": 685
+    },
+    {
+      "feature": "feature.query.concerns.scores.maintainability",
+      "gain": 935.287951,
+      "split": 734
+    },
+    {
+      "feature": "feature.query.domain.scores.devops_cli",
+      "gain": 909.554621,
+      "split": 617
+    },
+    {
+      "feature": "feature.query.domain.scores.systems_programming",
+      "gain": 879.667265,
+      "split": 633
+    },
+    {
+      "feature": "feature.query.concerns.scores.correctness",
+      "gain": 838.236997,
+      "split": 667
+    },
+    {
+      "feature": "feature.query.domain.scores.backend_api",
+      "gain": 819.305883,
+      "split": 622
+    },
+    {
+      "feature": "feature.query.domain.scores.algorithms",
+      "gain": 818.253131,
+      "split": 553
+    },
+    {
+      "feature": "feature.query.domain.scores.machine_learning",
+      "gain": 816.982442,
+      "split": 624
+    },
+    {
+      "feature": "feature.query.domain.scores.frontend",
+      "gain": 775.52817,
+      "split": 740
+    },
+    {
+      "feature": "feature.query.operation.confidence",
+      "gain": 711.89835,
+      "split": 369
+    },
+    {
+      "feature": "feature.query.domain.scores.database",
+      "gain": 681.70052,
+      "split": 616
+    },
+    {
+      "feature": "feature.query.domain.margin",
+      "gain": 615.07862,
+      "split": 503
+    },
+    {
+      "feature": "feature.query.domain.secondary_confidence",
+      "gain": 555.573533,
+      "split": 477
+    },
+    {
+      "feature": "feature.query.operation.secondary_confidence",
+      "gain": 499.29987,
+      "split": 507
+    },
+    {
+      "feature": "feature.code.structural.sloc",
+      "gain": 494.384012,
+      "split": 278
+    },
+    {
+      "feature": "feature.query.operation.margin",
+      "gain": 458.512017,
+      "split": 357
+    },
+    {
+      "feature": "feature.code.data_flow.unresolved_flow_ratio",
+      "gain": 452.297804,
+      "split": 392
+    },
+    {
+      "feature": "feature.code.semantic.unique_identifier_count",
+      "gain": 410.790668,
+      "split": 243
+    },
+    {
+      "feature": "feature.code.domain.embedding_scores.general_python",
+      "gain": 407.682358,
+      "split": 304
+    },
+    {
+      "feature": "feature.code.domain.embedding_scores.systems_programming",
+      "gain": 377.536962,
+      "split": 179
+    },
+    {
+      "feature": "feature.query.domain.confidence",
+      "gain": 373.741482,
+      "split": 341
+    },
+    {
+      "feature": "feature.code.domain.embedding_scores.algorithms",
+      "gain": 327.522151,
+      "split": 242
+    },
+    {
+      "feature": "feature.code.structural.complexity_per_branch",
+      "gain": 264.183296,
+      "split": 156
+    },
+    {
+      "feature": "feature.code.domain.embedding_scores.concurrency",
+      "gain": 253.570602,
+      "split": 195
+    },
+    {
+      "feature": "feature.code.data_flow.local_def_use_edge_count",
+      "gain": 196.389458,
+      "split": 177
+    },
+    {
+      "feature": "feature.code.structural.cognitive_complexity",
+      "gain": 186.945605,
+      "split": 117
+    },
+    {
+      "feature": "feature.code.domain.embedding_scores.backend_api",
+      "gain": 168.914291,
+      "split": 132
+    },
+    {
+      "feature": "feature.code.domain.embedding_scores.css_styling",
+      "gain": 164.992345,
+      "split": 106
+    },
+    {
+      "feature": "feature.code.domain.embedding_scores.cryptography",
+      "gain": 159.895038,
+      "split": 145
+    },
+    {
+      "feature": "feature.code.data_flow.unresolved_call_count",
+      "gain": 151.47639,
+      "split": 125
+    },
+    {
+      "feature": "feature.code.structural.num_returns",
+      "gain": 149.285239,
+      "split": 112
+    },
+    {
+      "feature": "feature.code.structural.num_branches",
+      "gain": 144.453449,
+      "split": 88
+    },
+    {
+      "feature": "feature.code.semantic.call_diversity",
+      "gain": 136.880728,
+      "split": 111
+    },
+    {
+      "feature": "feature.code.domain.embedding_scores.config_boilerplate",
+      "gain": 126.804639,
+      "split": 122
+    },
+    {
+      "feature": "feature.code.semantic.has_decorators",
+      "gain": 110.624115,
+      "split": 65
+    }
+  ]
+}

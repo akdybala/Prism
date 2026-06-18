@@ -1,0 +1,83 @@
+{
+  "stages": {
+    "original_labels_original_classifier_snapshot": {
+      "operation_accuracy": 0.6385,
+      "operation_macro_f1": 0.6258,
+      "query_domain_accuracy": 0.3776,
+      "query_domain_macro_f1": 0.3433,
+      "query_domain_ambiguous_rate": 0.7756,
+      "concern_exact_match": 0.1385,
+      "concern_macro_f1": 0.3982
+    },
+    "original_labels_after_handwritten_classifier_training": {
+      "operation_accuracy": 0.6583,
+      "operation_macro_f1": 0.6505,
+      "query_domain_accuracy": 0.3891,
+      "query_domain_macro_f1": 0.3444,
+      "query_domain_ambiguous_rate": 0.7401,
+      "concern_exact_match": 0.1696,
+      "concern_macro_f1": 0.4669
+    },
+    "trusted_v1_labels_after_handwritten_classifier_training": {
+      "operation_accuracy": 0.6593,
+      "operation_macro_f1": 0.6514,
+      "query_domain_accuracy": 0.4051,
+      "query_domain_macro_f1": 0.3606,
+      "query_domain_ambiguous_rate": 0.7401,
+      "concern_exact_match": 0.1865,
+      "concern_macro_f1": 0.4743
+    }
+  },
+  "trusted_v1_cleanup": {
+    "input": "router_pair_data\\llm_combined\\llm_grounded_pairs_combined.csv",
+    "adjudications": "router_pair_data\\audits\\llm_combined\\adjudication\\adjudicated_mismatches.csv",
+    "output": "router_pair_data\\trusted_v1\\llm_grounded_pairs_trusted_v1.csv",
+    "rows": 3120,
+    "adjudicated_pairs": 394,
+    "changed_items": 229,
+    "changed_pairs": 184,
+    "skipped": [],
+    "changes_by_signal": {
+      "concern_missing": 105,
+      "query_domain": 80,
+      "concern_extra": 38,
+      "operation": 6
+    },
+    "changes_by_verdict": {
+      "classifier_right": 202,
+      "neither_right": 26,
+      "both_defensible": 1
+    },
+    "metadata_pairs": {
+      "both_defensible": 51,
+      "manual_review": 0
+    }
+  },
+  "trusted_v1_audit_notes": {
+    "mismatch_rows": 3046,
+    "family_missing_operations": {
+      "737026b60428331f60c4be54": [
+        "optimize"
+      ],
+      "b58bce534f0cf51c55288bbf": [
+        "refactor"
+      ]
+    },
+    "deduplication": {
+      "duplicate_pair_ids": 0,
+      "duplicate_normalized_queries": 0,
+      "duplicate_code_query_pairs": 0
+    },
+    "similarity": {
+      "near_duplicates_ge_090": 0,
+      "near_duplicates_ge_080": 0,
+      "max_similarity": 0.4984
+    }
+  },
+  "interpretation": [
+    "Handwritten boundary examples improved operation, query-domain, and concern metrics on the original labels.",
+    "Applying adjudicated label corrections further improved measured domain and concern agreement.",
+    "Two family operation-coverage warnings are expected side effects of correcting operation labels inside originally balanced 8-query families.",
+    "Remaining low domain performance indicates the query-domain taxonomy still needs more adjudicated labels or a stronger classifier, not just more generic examples."
+  ]
+}
